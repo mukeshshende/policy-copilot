@@ -1,0 +1,51 @@
+version: "3.9"
+
+# ── Policy Copilot — Docker Compose ───────────────────────────────────────────
+# AIpportunity Pvt. Ltd.
+#
+# Usage:
+#   docker compose up --build        # first run — builds image
+#   docker compose up -d             # subsequent runs — detached
+#   docker compose down              # stop and remove containers
+#   docker compose logs -f           # follow logs
+#
+# External dependencies (not managed here):
+#   Ollama  : http://192.168.1.16:11434  (Windows host — always on)
+#   Langfuse: http://10.43.211.110:3000  (K3s pmo-copilot namespace)
+
+services:
+  policy-copilot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: policy-copilot:latest
+    container_name: policy-copilot
+    restart: unless-stopped
+
+    ports:
+      - "7860:7860"
+
+    volumes:
+      # Bind-mount pre-ingested ChromaDB vectors — no re-ingestion on container start
+      - ./data:/app/data
+      # Bind-mount .env — secrets never baked into the image
+      - ./.env:/app/.env:ro
+
+    environment:
+      # These mirror .env defaults — explicit here so docker compose config
+      # shows the full picture without requiring .env to be present.
+      OLLAMA_BASE_URL: http://192.168.1.16:11434
+      OLLAMA_LLM_MODEL: qwen2.5:7b
+      OLLAMA_EMBED_MODEL: nomic-embed-text
+      CHROMA_PERSIST_DIR: ./data/chroma_db
+      LANGFUSE_HOST: http://10.43.211.110:3000
+      GRADIO_PORT: "7860"
+      # LANGFUSE_PUBLIC_KEY and LANGFUSE_SECRET_KEY come from the mounted .env
+
+    # Health check — polls the Gradio root until it responds
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7860/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s

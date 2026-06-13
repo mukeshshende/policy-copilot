@@ -1,0 +1,33 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# Data — mounted as volumes at runtime, not baked into image
+data/chroma_db/
+data/governance.db
+
+# Secrets — mounted at runtime
+.env
+
+# Git
+.git/
+.gitignore
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
