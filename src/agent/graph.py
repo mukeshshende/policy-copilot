@@ -10,14 +10,21 @@ Graph topology:
   route_query          Decides which collections to search
       │
       ▼
-   retrieve            Pulls TOP_K chunks per collection (audience-filtered)
+  check_access         Unfiltered top-1 lookup — deny if restricted & not authorised
       │
-      ▼
- grade_documents       LLM scores each chunk: yes / no
+      ├─── (access_denied=True) ──► handle_access_denied ──► END
       │
-      ├─── (graded_docs empty) ──► handle_no_results ──► END
-      │
-      └─── (graded_docs non-empty) ──► generate ──► END
+      └─── (access_denied=False)
+               │
+               ▼
+            retrieve            Pulls TOP_K chunks per collection (audience-filtered)
+               │
+               ▼
+          grade_documents       LLM scores each chunk: yes / no
+               │
+               ├─── (graded_docs empty) ──► handle_no_results ──► END
+               │
+               └─── (graded_docs non-empty) ──► generate ──► END
 
 Compile once at module level with `build_graph()` and reuse the compiled
 graph across requests — it is thread-safe after compilation.
@@ -36,6 +43,8 @@ load_dotenv()
 from src.agent.state import AgentState, UserRole
 from src.agent.nodes import (
     route_query,
+    check_access,
+    handle_access_denied,
     retrieve,
     grade_documents,
     generate,
@@ -45,12 +54,23 @@ from src.agent.nodes import (
 logger = logging.getLogger(__name__)
 
 
-# ── Conditional edge function ──────────────────────────────────────────────────
+# ── Conditional edge functions ─────────────────────────────────────────────────
+
+def _route_after_access_check(state: AgentState) -> str:
+    """
+    Branch after check_access:
+      - "handle_access_denied" if the top matching doc is restricted for this role
+      - "retrieve"             otherwise (proceed with audience-filtered retrieval)
+    """
+    if state.get("access_denied"):
+        return "handle_access_denied"
+    return "retrieve"
+
 
 def _route_after_grading(state: AgentState) -> str:
     """
     Branch after grade_documents:
-      - "generate"         if at least one graded doc exists
+      - "generate"          if at least one graded doc exists
       - "handle_no_results" if nothing passed the relevance filter
     """
     graded = state.get("graded_docs") or []
@@ -71,16 +91,28 @@ def build_graph() -> Any:
     builder = StateGraph(AgentState)
 
     # Add nodes
-    builder.add_node("route_query",       route_query)
-    builder.add_node("retrieve",          retrieve)
-    builder.add_node("grade_documents",   grade_documents)
-    builder.add_node("generate",          generate)
-    builder.add_node("handle_no_results", handle_no_results)
+    builder.add_node("route_query",          route_query)
+    builder.add_node("check_access",         check_access)
+    builder.add_node("handle_access_denied", handle_access_denied)
+    builder.add_node("retrieve",             retrieve)
+    builder.add_node("grade_documents",      grade_documents)
+    builder.add_node("generate",             generate)
+    builder.add_node("handle_no_results",    handle_no_results)
 
     # Linear edges
-    builder.add_edge(START,            "route_query")
-    builder.add_edge("route_query",    "retrieve")
-    builder.add_edge("retrieve",       "grade_documents")
+    builder.add_edge(START,           "route_query")
+    builder.add_edge("route_query",   "check_access")
+    builder.add_edge("retrieve",      "grade_documents")
+
+    # Conditional branch after access check
+    builder.add_conditional_edges(
+        "check_access",
+        _route_after_access_check,
+        {
+            "handle_access_denied": "handle_access_denied",
+            "retrieve":             "retrieve",
+        },
+    )
 
     # Conditional branch after grading
     builder.add_conditional_edges(
@@ -93,8 +125,9 @@ def build_graph() -> Any:
     )
 
     # Terminal edges
-    builder.add_edge("generate",          END)
-    builder.add_edge("handle_no_results", END)
+    builder.add_edge("handle_access_denied", END)
+    builder.add_edge("generate",             END)
+    builder.add_edge("handle_no_results",    END)
 
     graph = builder.compile()
     logger.info("[build_graph] Policy Copilot graph compiled successfully.")
@@ -166,6 +199,8 @@ def run_query(
         "graded_docs":    [],
         "answer":         "",
         "sources":        [],
+        "access_denied":  False,
+        "llm_model":      "",
         "run_id":         str(uuid.uuid4()),
         "error":          "",
     }
@@ -214,6 +249,7 @@ def run_query_traced(
         "graded_docs":    [],
         "answer":         "",
         "sources":        [],
+        "access_denied":  False,
         "llm_model":      llm_model,
         "run_id":         run_id,
         "error":          "",

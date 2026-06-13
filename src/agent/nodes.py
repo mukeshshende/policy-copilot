@@ -117,7 +117,93 @@ def route_query(state: AgentState) -> dict[str, Any]:
     return {"collections": unique}
 
 
-# ── Node 2: retrieve ───────────────────────────────────────────────────────────
+# ── Node 2: check_access ──────────────────────────────────────────────────────
+
+def check_access(state: AgentState) -> dict[str, Any]:
+    """
+    Pre-retrieval access check.
+
+    Searches the routed collections WITHOUT an audience filter to find the
+    best-matching documents for the query.  If the top match is NOT accessible
+    to the user's role, sets access_denied=True so the graph routes to
+    handle_access_denied instead of retrieve.
+
+    This gives Option B behaviour:
+        - Restricted query + wrong role → clear "access denied" message
+        - Unrestricted query → proceed normally to retrieve
+
+    Returns:
+        {"access_denied": bool}
+    """
+    query       = state["query"]
+    user_role   = state["user_role"]
+    collections = state.get("collections") or list(ALL_COLLECTIONS)
+    audience_key = f"audience_{user_role}"
+
+    logger.info(f"[check_access] role={user_role!r} collections={collections}")
+
+    embeddings = _get_embeddings()
+
+    for collection_name in collections:
+        vector_store = Chroma(
+            collection_name=collection_name,
+            embedding_function=embeddings,
+            persist_directory=CHROMA_PERSIST_DIR,
+        )
+        # Top-1 unfiltered result — best semantic match regardless of role
+        top_docs = vector_store.similarity_search(query, k=1)
+        if not top_docs:
+            continue
+
+        top_meta = top_docs[0].metadata
+        accessible = top_meta.get(audience_key, False)
+        sensitivity = top_meta.get("sensitivity", "internal")
+        source = top_meta.get("source_file", "?")
+
+        logger.info(
+            f"[check_access]   {collection_name} top_match={source!r} "
+            f"sensitivity={sensitivity!r} accessible={accessible}"
+        )
+
+        # If the best match is restricted/confidential AND not accessible → deny
+        if sensitivity in ("restricted", "confidential") and not accessible:
+            logger.info(
+                f"[check_access] ACCESS DENIED — top match is {sensitivity!r} "
+                f"and role={user_role!r} is not authorised."
+            )
+            return {"access_denied": True}
+
+    logger.info("[check_access] ACCESS ALLOWED")
+    return {"access_denied": False}
+
+
+# ── Node 3: handle_access_denied ───────────────────────────────────────────────
+
+def handle_access_denied(state: AgentState) -> dict[str, Any]:
+    """
+    Returned when check_access determines the user's role cannot access
+    the most relevant documents for their query.
+
+    Gives a clear, honest message without leaking any restricted content.
+
+    Returns:
+        {"answer": str, "sources": []}
+    """
+    role = state["user_role"]
+    logger.info(f"[handle_access_denied] role={role!r} query={state['query']!r}")
+
+    answer = (
+        f"The information you requested is classified as restricted or confidential "
+        f"and is not accessible to your role ({role}).\n\n"
+        f"Please contact the relevant team for assistance:\n"
+        f"• HR matters: hr@aiopportunity.in\n"
+        f"• IT matters: it-support@aiopportunity.in\n"
+        f"• Operational matters: operations@aiopportunity.in"
+    )
+    return {"answer": answer, "sources": []}
+
+
+# ── Node 4: retrieve ───────────────────────────────────────────────────────────
 
 def retrieve(state: AgentState) -> dict[str, Any]:
     """
@@ -169,7 +255,7 @@ def retrieve(state: AgentState) -> dict[str, Any]:
     return {"retrieved_docs": all_docs}
 
 
-# ── Node 3: grade_documents ────────────────────────────────────────────────────
+# ── Node 5: grade_documents ────────────────────────────────────────────────────
 
 def grade_documents(state: AgentState) -> dict[str, Any]:
     """
@@ -220,7 +306,7 @@ def grade_documents(state: AgentState) -> dict[str, Any]:
     return {"graded_docs": graded}
 
 
-# ── Node 4: generate ───────────────────────────────────────────────────────────
+# ── Node 6: generate ───────────────────────────────────────────────────────────
 
 def generate(state: AgentState) -> dict[str, Any]:
     """
@@ -271,7 +357,7 @@ def generate(state: AgentState) -> dict[str, Any]:
     return {"answer": answer, "sources": sources}
 
 
-# ── Node 5: handle_no_results ──────────────────────────────────────────────────
+# ── Node 7: handle_no_results ──────────────────────────────────────────────────
 
 def handle_no_results(state: AgentState) -> dict[str, Any]:
     """

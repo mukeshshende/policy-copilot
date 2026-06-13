@@ -65,6 +65,12 @@ class AgentState(TypedDict):
     answer: str
     sources: list[str]
 
+    # ── Access control ─────────────────────────────────────────────────────────
+    # Set to True by check_access node when the best matching docs are
+    # restricted from the user's role. Causes graph to route to
+    # handle_access_denied instead of retrieve.
+    access_denied: bool
+
     # ── LLM model override (Demo Mode) ────────────────────────────────────────
     # Empty string = use OLLAMA_LLM_MODEL from env (default behaviour).
     # Set to a model name (e.g. "gemma4:31b") to override for this run only.
