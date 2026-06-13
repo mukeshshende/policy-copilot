@@ -37,10 +37,19 @@ _db = GovernanceDB()
 # ── Role options (must match ALL_ROLES in ingest.py) ──────────────────────────
 ROLES = ["employee", "manager", "HR", "IT_admin", "Leadership"]
 
+# Models available in Ollama on the Windows host.
+# Controlled by AVAILABLE_MODELS env var (comma-separated) — no code change needed
+# to add or remove models. Update ConfigMap + restart pod in K3s.
+_models_env = os.environ.get("AVAILABLE_MODELS", "qwen2.5:7b")
+MODELS = [m.strip() for m in _models_env.split(",") if m.strip()]
+if not MODELS:
+    MODELS = ["qwen2.5:7b"]
+logger.info(f"[app] Available models: {MODELS}")
+
 
 # ── Core handler ───────────────────────────────────────────────────────────────
 
-def ask_policy(question: str, role: str) -> tuple[str, str]:
+def ask_policy(question: str, role: str, model: str) -> tuple[str, str]:
     """
     Gradio handler — called on every Submit click.
 
@@ -53,10 +62,10 @@ def ask_policy(question: str, role: str) -> tuple[str, str]:
     if not role:
         return "Please select your role.", ""
 
-    logger.info(f"[app] role={role!r} question={question!r}")
+    logger.info(f"[app] role={role!r} model={model!r} question={question!r}")
 
     try:
-        final = run_query_traced(query=question, user_role=role, graph=_graph)
+        final = run_query_traced(query=question, user_role=role, graph=_graph, llm_model=model)
         _db.log_run(final)
 
         answer  = final.get("answer", "").strip()
@@ -107,6 +116,11 @@ def build_ui() -> gr.Blocks:
                     value="employee",
                     label="Your Role",
                 )
+                model_dropdown = gr.Dropdown(
+                    choices=MODELS,
+                    value="qwen2.5:7b",
+                    label="LLM Model (Demo)",
+                )
 
         submit_btn = gr.Button("Ask Policy Copilot", variant="primary")
 
@@ -126,28 +140,28 @@ def build_ui() -> gr.Blocks:
         # Example questions
         gr.Examples(
             examples=[
-                ["How many days of annual leave am I entitled to?",        "employee"],
-                ["What is the work from home policy?",                     "employee"],
-                ["What is the travel expense reimbursement process?",      "manager"],
-                ["What are the document retention requirements?",          "manager"],
-                ["What is the disciplinary action procedure?",             "HR"],
-                ["What is the acceptable use policy for company devices?", "IT_admin"],
-                ["What is the company's business continuity plan?",        "Leadership"],
+                ["How many days of annual leave am I entitled to?",        "employee",  "qwen2.5:7b"],
+                ["What is the work from home policy?",                     "employee",  "qwen2.5:7b"],
+                ["What is the travel expense reimbursement process?",      "manager",   "qwen2.5:7b"],
+                ["What are the document retention requirements?",          "manager",   "qwen2.5:7b"],
+                ["What is the disciplinary action procedure?",             "HR",        "qwen2.5:7b"],
+                ["What is the acceptable use policy for company devices?", "IT_admin",  "qwen2.5:7b"],
+                ["What is the company's business continuity plan?",        "Leadership","gemma4:31b"],
             ],
-            inputs=[question_box, role_dropdown],
+            inputs=[question_box, role_dropdown, model_dropdown],
             label="Example Questions",
         )
 
         submit_btn.click(
             fn=ask_policy,
-            inputs=[question_box, role_dropdown],
+            inputs=[question_box, role_dropdown, model_dropdown],
             outputs=[answer_box, sources_box],
         )
 
         # Allow Enter key to submit
         question_box.submit(
             fn=ask_policy,
-            inputs=[question_box, role_dropdown],
+            inputs=[question_box, role_dropdown, model_dropdown],
             outputs=[answer_box, sources_box],
         )
 

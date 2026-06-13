@@ -49,10 +49,16 @@ ROUTER_TOKEN_MAP: dict[str, CollectionName] = {
 }
 
 
-def _get_llm() -> ChatOllama:
-    """Return a ChatOllama instance pointing at the Windows Ollama host."""
+def _get_llm(model_override: str = "") -> ChatOllama:
+    """Return a ChatOllama instance pointing at the Windows Ollama host.
+
+    Args:
+        model_override: If non-empty, use this model instead of the env default.
+                        Populated from AgentState.llm_model (Demo Mode selector).
+    """
+    model = model_override or OLLAMA_LLM_MODEL
     return ChatOllama(
-        model=OLLAMA_LLM_MODEL,
+        model=model,
         base_url=OLLAMA_BASE_URL,
         temperature=0,
     )
@@ -81,7 +87,7 @@ def route_query(state: AgentState) -> dict[str, Any]:
     """
     logger.info(f"[route_query] query={state['query']!r}")
 
-    chain = ROUTER_PROMPT | _get_llm()
+    chain = ROUTER_PROMPT | _get_llm(state.get("llm_model", ""))
     response = chain.invoke({"query": state["query"]})
     raw_output = response.content.strip().lower()
     logger.info(f"[route_query] LLM output: {raw_output!r}")
@@ -136,6 +142,14 @@ def retrieve(state: AgentState) -> dict[str, Any]:
     audience_key = f"audience_{user_role}"
     all_docs: list[Document] = []
 
+    # Auto-tune retrieval depth: large models are slower per LLM call (grader),
+    # so fewer chunks = faster end-to-end without sacrificing answer quality.
+    model = state.get("llm_model", "") or OLLAMA_LLM_MODEL
+    # Throttle retrieval only for models >15GB (too slow for 10 grader calls)
+    large_model = any(x in model for x in ["31b", "33b", "70b", "gpt-oss"])
+    effective_top_k = 5 if large_model else TOP_K
+    logger.info(f"[retrieve]   top_k={effective_top_k} (model={model!r})")
+
     for collection_name in collections:
         logger.info(f"[retrieve]   searching {collection_name} …")
         vector_store = Chroma(
@@ -145,7 +159,7 @@ def retrieve(state: AgentState) -> dict[str, Any]:
         )
         docs = vector_store.similarity_search(
             query=query,
-            k=TOP_K,
+            k=effective_top_k,
             filter={audience_key: True},
         )
         logger.info(f"[retrieve]   {collection_name} → {len(docs)} doc(s)")
@@ -173,7 +187,7 @@ def grade_documents(state: AgentState) -> dict[str, Any]:
 
     logger.info(f"[grade_documents] grading {len(retrieved)} chunk(s) …")
 
-    llm   = _get_llm()
+    llm   = _get_llm(state.get("llm_model", ""))
     chain = GRADER_PROMPT | llm
 
     graded: list[Document] = []
@@ -223,7 +237,7 @@ def generate(state: AgentState) -> dict[str, Any]:
         f"context_chunks={len(graded)}"
     )
 
-    llm   = _get_llm()
+    llm   = _get_llm(state.get("llm_model", ""))
     chain = GENERATOR_PROMPT | llm
     response = chain.invoke({
         "query":     query,

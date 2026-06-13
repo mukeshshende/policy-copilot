@@ -1,0 +1,78 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: policy-copilot
+  namespace: policy-copilot
+  labels:
+    app: policy-copilot
+    version: v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: policy-copilot
+  template:
+    metadata:
+      labels:
+        app: policy-copilot
+        version: v1
+    spec:
+      containers:
+        - name: policy-copilot
+          image: policy-copilot:latest
+          imagePullPolicy: Never          # use locally imported image
+          ports:
+            - containerPort: 7860
+
+          # Non-secret config from ConfigMap
+          envFrom:
+            - configMapRef:
+                name: policy-copilot-config
+
+          # Secret keys from Secret
+          env:
+            - name: LANGFUSE_PUBLIC_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: policy-copilot-secrets
+                  key: LANGFUSE_PUBLIC_KEY
+            - name: LANGFUSE_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: policy-copilot-secrets
+                  key: LANGFUSE_SECRET_KEY
+
+          volumeMounts:
+            - name: data-volume
+              mountPath: /app/data
+
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "250m"
+            limits:
+              memory: "1Gi"
+              cpu: "1000m"
+
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 7860
+            initialDelaySeconds: 60
+            periodSeconds: 30
+            failureThreshold: 3
+
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 7860
+            initialDelaySeconds: 60
+            periodSeconds: 10
+            failureThreshold: 3
+
+      volumes:
+        - name: data-volume
+          hostPath:
+            # Pre-ingested ChromaDB vectors — reused directly, no re-ingestion
+            path: /home/m4hs4e/policy-copilot/data
+            type: Directory

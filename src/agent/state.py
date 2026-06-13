@@ -65,6 +65,11 @@ class AgentState(TypedDict):
     answer: str
     sources: list[str]
 
+    # ── LLM model override (Demo Mode) ────────────────────────────────────────
+    # Empty string = use OLLAMA_LLM_MODEL from env (default behaviour).
+    # Set to a model name (e.g. "gemma4:31b") to override for this run only.
+    llm_model: str
+
     # ── Governance / observability ─────────────────────────────────────────────
     run_id: str          # UUID for governance log correlation
     error: str           # empty string = no error; non-empty = node failed

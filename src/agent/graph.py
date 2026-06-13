@@ -183,6 +183,7 @@ def run_query_traced(
     query: str,
     user_role: UserRole,
     graph: Any = None,
+    llm_model: str = "",
 ) -> dict[str, Any]:
     """
     Run a single query with Langfuse observability tracing.
@@ -213,6 +214,7 @@ def run_query_traced(
         "graded_docs":    [],
         "answer":         "",
         "sources":        [],
+        "llm_model":      llm_model,
         "run_id":         run_id,
         "error":          "",
     }
