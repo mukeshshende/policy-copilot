@@ -24,10 +24,14 @@ graph across requests — it is thread-safe after compilation.
 """
 
 import logging
+import os
 import uuid
 from typing import Any
 
+from dotenv import load_dotenv
 from langgraph.graph import StateGraph, START, END
+
+load_dotenv()
 
 from src.agent.state import AgentState, UserRole
 from src.agent.nodes import (
@@ -97,7 +101,43 @@ def build_graph() -> Any:
     return graph
 
 
-# ── Convenience run function ───────────────────────────────────────────────────
+# ── Langfuse callback factory ──────────────────────────────────────────────────
+
+def _make_langfuse_handler(run_id: str, user_role: str, query: str) -> Any:
+    """
+    Build a LangfuseCallbackHandler for one graph run.
+
+    Returns None (silently) if Langfuse env vars are not configured so the
+    app still works without observability during local dev / CI.
+    """
+    public_key  = os.environ.get("LANGFUSE_PUBLIC_KEY", "")
+    secret_key  = os.environ.get("LANGFUSE_SECRET_KEY", "")
+    host        = os.environ.get("LANGFUSE_HOST", "")
+
+    if not (public_key and secret_key and host):
+        logger.warning("[graph] Langfuse env vars not set — tracing disabled.")
+        return None
+
+    try:
+        from langfuse.callback import CallbackHandler
+        handler = CallbackHandler(
+            public_key=public_key,
+            secret_key=secret_key,
+            host=host,
+            trace_name="policy-copilot-query",
+            session_id=run_id,
+            metadata={
+                "user_role": user_role,
+                "query":     query,
+            },
+        )
+        return handler
+    except Exception as exc:
+        logger.warning(f"[graph] Could not create Langfuse handler: {exc}")
+        return None
+
+
+# ── Convenience run functions ──────────────────────────────────────────────────
 
 def run_query(
     query: str,
@@ -105,7 +145,7 @@ def run_query(
     graph: Any = None,
 ) -> dict[str, Any]:
     """
-    Run a single query through the Policy Copilot graph.
+    Run a single query through the Policy Copilot graph (no tracing).
 
     Args:
         query:     The user's question.
@@ -119,15 +159,15 @@ def run_query(
         graph = build_graph()
 
     initial_state: AgentState = {
-        "query":         query,
-        "user_role":     user_role,
-        "collections":   [],
+        "query":          query,
+        "user_role":      user_role,
+        "collections":    [],
         "retrieved_docs": [],
-        "graded_docs":   [],
-        "answer":        "",
-        "sources":       [],
-        "run_id":        str(uuid.uuid4()),
-        "error":         "",
+        "graded_docs":    [],
+        "answer":         "",
+        "sources":        [],
+        "run_id":         str(uuid.uuid4()),
+        "error":          "",
     }
 
     logger.info(
@@ -136,6 +176,56 @@ def run_query(
     )
 
     final_state = graph.invoke(initial_state)
+    return final_state
+
+
+def run_query_traced(
+    query: str,
+    user_role: UserRole,
+    graph: Any = None,
+) -> dict[str, Any]:
+    """
+    Run a single query with Langfuse observability tracing.
+
+    Identical to run_query() but attaches a LangfuseCallbackHandler so every
+    LLM call (router, grader, generator) appears as a span in the Langfuse UI.
+
+    Falls back to untraced execution if Langfuse env vars are missing.
+
+    Args:
+        query:     The user's question.
+        user_role: One of: employee | manager | HR | IT_admin | Leadership
+        graph:     Optional pre-compiled graph.  Built fresh if not provided.
+
+    Returns:
+        The final AgentState dict with `answer` and `sources` populated.
+    """
+    if graph is None:
+        graph = build_graph()
+
+    run_id = str(uuid.uuid4())
+
+    initial_state: AgentState = {
+        "query":          query,
+        "user_role":      user_role,
+        "collections":    [],
+        "retrieved_docs": [],
+        "graded_docs":    [],
+        "answer":         "",
+        "sources":        [],
+        "run_id":         run_id,
+        "error":          "",
+    }
+
+    handler = _make_langfuse_handler(run_id, user_role, query)
+    config  = {"callbacks": [handler]} if handler else {}
+
+    logger.info(
+        f"[run_query_traced] run_id={run_id} "
+        f"role={user_role!r} traced={handler is not None}"
+    )
+
+    final_state = graph.invoke(initial_state, config=config)
     return final_state
 
 

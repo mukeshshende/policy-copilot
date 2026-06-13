@@ -34,7 +34,9 @@ OLLAMA_EMBED_MODEL = os.environ.get("OLLAMA_EMBED_MODEL", "nomic-embed-text")
 CHROMA_PERSIST_DIR = os.environ.get("CHROMA_PERSIST_DIR",  "./data/chroma_db")
 
 # Number of chunks to retrieve per collection
-TOP_K = 5
+# 10 gives the grader enough candidates to find relevant content even when
+# small 300-char chunks contain only partial context.
+TOP_K = 10
 
 # All valid collection names
 ALL_COLLECTIONS: list[CollectionName] = ["hr_policies", "ops_policies", "it_policies"]
