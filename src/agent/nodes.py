@@ -206,6 +206,17 @@ def grade_documents(state: AgentState) -> dict[str, Any]:
             graded.append(doc)
 
     logger.info(f"[grade_documents] kept {len(graded)} / {len(retrieved)}")
+
+    # Fallback: if grader rejected everything but docs were retrieved, the grader
+    # was likely too strict. Pass all retrieved docs to the generator rather than
+    # returning a false "no results". Logged as a warning for observability.
+    if not graded and retrieved:
+        logger.warning(
+            f"[grade_documents] Grader rejected all {len(retrieved)} chunks — "
+            "falling back to full retrieved set to avoid false no-results."
+        )
+        graded = retrieved
+
     return {"graded_docs": graded}
 
 

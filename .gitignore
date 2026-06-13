@@ -14,8 +14,13 @@ build/
 # ChromaDB (persisted vector store — not committed, re-ingest on deploy)
 data/chroma_db/
 
-# SQLite governance DB (runtime artifact)
+# SQLite governance DB (runtime artifact + WAL mode companion files)
 data/governance.db
+data/governance.db-shm
+data/governance.db-wal
+
+# K8s secrets (contain real credentials — never commit)
+k8s/02-secret.yml
 
 # Logs
 *.log
