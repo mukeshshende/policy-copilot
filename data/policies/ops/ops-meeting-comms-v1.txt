@@ -1,0 +1,95 @@
+---
+title: Meeting and Communication Protocols
+category: OPS
+sensitivity: internal
+audience: all
+doc_id: ops-meeting-comms-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+MEETING AND COMMUNICATION PROTOCOLS
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE
+
+Effective meetings and clear communication are fundamental to how we work at AIpportunity Pvt. Ltd. As a hybrid-first organisation, how we structure meetings, make decisions, and use communication tools directly affects productivity, inclusion, and well-being. This document establishes protocols for meetings, email, messaging, and documentation to create a consistent, efficient communication culture across all offices and remote employees.
+
+2. MEETING PRINCIPLES
+
+AIpportunity Pvt. Ltd. operates with the following meeting principles:
+- Every meeting has a clear purpose, agenda, and decision or output expected
+- Attendance is limited to those who can contribute or are directly affected
+- Meetings start and end on time without exception
+- Outcomes, decisions, and action items are documented within 24 hours
+- No meeting should replace a message that can be sent asynchronously
+
+2.1 No-Meeting Blocks
+Fridays between 12:00 PM and 5:00 PM are designated deep-work time. No internal meetings are to be scheduled during this block. This time is reserved for focused individual work, learning, and documentation.
+
+2.2 Meeting-Free Week
+One week per quarter is designated as a meeting-free week for individual contributors. During this week, recurring meetings are paused. Only critical client-facing or escalation meetings may be held.
+
+3. MEETING TYPES AND STANDARDS
+
+3.1 One-on-One Meetings (1:1)
+Every employee should have a regular 1:1 with their manager, recommended frequency: weekly for new joiners (first 3 months), fortnightly for experienced employees. The employee owns the agenda. Topics include: progress on goals, blockers, development, and wellbeing. 1:1s are confidential.
+
+3.2 Team Stand-ups
+Daily or weekly stand-ups should be time-boxed to 15 minutes maximum. Each participant covers: what they completed, what they are working on today, and any blockers. Stand-ups are status updates — problem-solving discussions are parked and addressed separately.
+
+3.3 Project Reviews and Decision Meetings
+These require a written agenda shared at least 24 hours in advance. The meeting organiser is responsible for preparing the agenda. Decision meetings must result in documented decisions with owners and timelines. If a decision cannot be reached in the meeting, the next step (further review, escalation, or async consultation) must be agreed upon before the meeting ends.
+
+3.4 All-Hands Meetings
+All-Hands meetings are held quarterly by the CHRO and CEO to share company performance, priorities, and recognitions. Attendance is mandatory. Recordings are available on the intranet within 48 hours for employees who are unable to attend due to leave or client obligations.
+
+4. CALENDAR AND SCHEDULING STANDARDS
+
+4.1 Calendar Visibility
+All employees must keep their Microsoft Outlook calendar up to date, including marking out-of-office periods, focus time blocks, and leave. Calendar visibility is set to "busy/free" by default. Managers may request full visibility from their direct reports.
+
+4.2 Meeting Invites
+Invites should be sent at least 24 hours in advance for ad hoc meetings, and at least 5 working days for all-hands or department-level reviews. Invites must include: purpose, agenda, required preparation, and decision(s) expected. Inviting people "for awareness" is discouraged — share a meeting summary instead.
+
+4.3 Hybrid Meeting Etiquette
+When a meeting includes both in-person and remote attendees:
+- Every remote participant must be visible and audible
+- A single meeting room camera must face the speaker area, not a wall
+- In-room participants must not conduct side conversations that exclude remote attendees
+- All materials must be shared digitally — no "whiteboard only" discussions
+
+5. EMAIL STANDARDS
+
+5.1 Response Time Expectations
+Internal emails: respond within 1 working day during core hours. External/client emails: respond within 4 hours during business hours. For non-urgent communications where a response is not needed within 24 hours, use asynchronous channels (document comments, project boards).
+
+5.2 Email Best Practices
+Use a clear, descriptive subject line. Limit To: recipients to those from whom action is required; use Cc: for awareness only. Keep emails concise — avoid writing paragraphs when bullet points will do. Do not use Reply All unless all recipients need the information. Mark emails that require a specific response or deadline with [ACTION REQUIRED] or [DEADLINE: DATE] in the subject line.
+
+5.3 Out-of-Office
+Employees must activate an out-of-office auto-reply when on leave for more than 1 day. The auto-reply must include: the dates of absence, the name of the colleague who can be contacted for urgent matters, and, for external contacts, the relevant team distribution email.
+
+6. MESSAGING PLATFORM (MICROSOFT TEAMS)
+
+Microsoft Teams is the primary internal messaging platform. Email is preferred for formal communication and decisions. Teams channels are used for project collaboration, quick questions, and informal team communication.
+
+6.1 Channel Etiquette
+Post in the relevant channel rather than direct messaging a colleague for questions that may benefit others. Use threads to organise discussions within a channel. React to messages with emoji to acknowledge receipt, reducing reply noise.
+
+6.2 Availability Status
+Employees must keep Teams status updated to reflect actual availability. Do Not Disturb (DND) should be used during focused work blocks and should not extend beyond 2 hours without a status message.
+
+7. DOCUMENTATION AND KNOWLEDGE MANAGEMENT
+
+All significant decisions, project updates, and meeting outcomes must be documented in the relevant SharePoint site or project wiki. Documentation stored only in personal drives, emails, or chat threads is not an acceptable record. Documentation standards by type:
+
+- Project decisions: recorded in the project wiki with date, decision, rationale, and owner
+- HR policy communications: issued through the HRMS and stored on the company intranet
+- Client deliverables: maintained in the designated client SharePoint folder with version control
+
+8. POLICY REVIEW
+
+This policy is reviewed annually and updated based on feedback from employee surveys and operational experience.
+
+For queries, contact: operations@aiopportunity.in

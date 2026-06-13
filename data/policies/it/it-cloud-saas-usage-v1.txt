@@ -1,0 +1,92 @@
+---
+title: Cloud and SaaS Usage Policy
+category: IT
+sensitivity: restricted
+audience: IT, Leadership
+doc_id: it-cloud-saas-usage-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+CLOUD AND SAAS USAGE POLICY
+AIpportunity Pvt. Ltd.
+[RESTRICTED — FOR IT AND LEADERSHIP ONLY]
+
+1. PURPOSE
+
+Cloud computing and Software as a Service (SaaS) platforms are central to AIpportunity Pvt. Ltd.'s technology strategy. This policy governs the use, procurement, and governance of cloud infrastructure services (IaaS, PaaS) and SaaS applications. It applies to IT teams managing cloud infrastructure and to Leaders and Managers responsible for departmental SaaS decisions. The policy ensures that cloud and SaaS usage is secure, cost-controlled, compliant with data protection obligations, and aligned with the company's architectural standards.
+
+2. CLOUD STRATEGY
+
+AIpportunity Pvt. Ltd. operates a hybrid cloud model:
+- Primary public cloud: Microsoft Azure (India West and India South regions)
+- Secondary cloud: AWS ap-south-1 (Mumbai) for select workloads
+- Private cloud: On-premises infrastructure at Hyderabad HQ for high-sensitivity systems and on-premises databases
+- SaaS: Approved third-party SaaS applications governed by this policy
+
+Cloud-first is the default stance for new workloads. New on-premises infrastructure deployments require CTO justification and approval. The Cloud Architecture Board (CAB), chaired by the CTO, reviews all cloud architecture decisions above a defined cost or sensitivity threshold.
+
+3. APPROVED CLOUD ENVIRONMENTS
+
+3.1 Azure Subscription Management
+All Azure usage is under AIpportunity Pvt. Ltd.'s enterprise Azure agreement managed by the IT Cloud Operations team. Individual teams must not create personal Azure subscriptions for company work. All cloud resources must be provisioned within the company's Azure tenant under the approved subscription hierarchy.
+
+3.2 AWS Account Management
+AWS is used for specific workloads under a master account managed by Cloud Operations. Business units requiring AWS access are provisioned as sub-accounts under AWS Organizations with enforced security controls via Service Control Policies (SCPs).
+
+3.3 Personal Cloud Accounts
+Employees are prohibited from using personal cloud accounts (personal AWS, Azure, GCP, DigitalOcean, Heroku, etc.) for company work. This includes development and testing work. Shadow IT on personal cloud accounts creates security, compliance, and cost risks. All development environments must be provisioned through IT under the approved accounts.
+
+4. SAAS GOVERNANCE
+
+4.1 Approved SaaS List
+The IT team maintains an approved SaaS application list, accessible on the company intranet. Applications on this list have been security-reviewed and are covered by a vendor contract including a Data Processing Agreement (DPA) where required.
+
+4.2 SaaS Procurement
+Procurement of new SaaS tools requires the approval process defined in the Software License Management Policy and the Procurement Authority Matrix. Department leaders may not purchase SaaS subscriptions outside this process even from personal budget codes. Exceptions require CTO and CFO approval.
+
+4.3 Shadow SaaS
+Use of SaaS applications not on the approved list — particularly those involving company data — is shadow IT and a policy violation. IT conducts monthly DNS and web proxy analysis to detect shadow SaaS usage. Detected shadow SaaS is investigated and either rapidly onboarded through the approval process or blocked.
+
+5. DATA RESIDENCY AND SOVEREIGNTY
+
+5.1 Data Classification and Cloud Placement
+Data placement in cloud environments must comply with the Data Classification Policy. The current rules are:
+- Public data: May be stored in any approved cloud region
+- Internal data: Must be stored in India-region cloud infrastructure (Azure India West/South, AWS ap-south-1)
+- Restricted and Confidential data: Must remain in India-region infrastructure; cross-region replication only with IT Security approval
+- Data subject to client contractual data residency requirements must comply with the specific contractual terms, which may be more restrictive
+
+5.2 Cross-Border Data Transfer
+Transferring Restricted or Confidential data to cloud regions outside India must be approved by IT Security, Legal, and the relevant data owner. Transfers must comply with applicable data protection law, currently the Digital Personal Data Protection Act 2023. IT maintains a data transfer register for all approved cross-border transfers.
+
+6. CLOUD SECURITY STANDARDS
+
+6.1 Identity and Access
+All cloud access uses Azure AD / Entra ID SSO. No local cloud accounts are permitted except for break-glass accounts (tightly controlled emergency access accounts whose use is logged and reviewed). MFA is enforced for all cloud console access.
+
+6.2 Network Security
+All production cloud environments have: VNet/VPC segmentation, no resources exposed to the public internet without a Web Application Firewall (WAF), network security group rules reviewed quarterly, and audit logging enabled (Azure Monitor / AWS CloudTrail).
+
+6.3 Encryption
+Data at rest is encrypted using AES-256 or equivalent. Data in transit uses TLS 1.2 minimum. Encryption key management uses cloud-native key management services (Azure Key Vault, AWS KMS). Customer-managed keys are required for Confidential data.
+
+6.4 Vulnerability Management
+Cloud infrastructure is scanned monthly for vulnerabilities using automated tools. Critical and high severity findings are remediated within 30 and 90 days respectively. Unresolved critical findings are escalated to the CTO.
+
+7. COST GOVERNANCE
+
+7.1 Cloud Cost Management
+IT Cloud Operations implements cloud cost management controls: resource tagging (all resources tagged by cost centre, project, and environment), automated shutdown of non-production resources outside business hours, right-sizing reviews quarterly, and reserved instance usage for predictable workloads.
+
+7.2 Budget Alerting
+Cost budgets are set per Azure subscription and AWS account. Alerts trigger at 80% of budget and escalate to the Department Head. Unplanned cost overruns above 20% require CFO review.
+
+7.3 Monthly Cloud Spend Report
+IT publishes a monthly cloud spend report to Department Heads and the CFO. Anomalies are highlighted. Department Heads are accountable for their cloud spend.
+
+8. CLOUD INCIDENT RESPONSE
+
+Cloud security incidents (data exposure, unauthorised access, misconfiguration) are handled under the IT Incident Response Runbook with additional cloud-specific procedures. Vendor-provided security alerts (Azure Security Center, AWS Security Hub) are monitored 24x7 by IT Operations.
+
+For queries, contact: cloudops@aiopportunity.in or it-security@aiopportunity.in

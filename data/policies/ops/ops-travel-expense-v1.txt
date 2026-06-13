@@ -1,0 +1,92 @@
+---
+title: Travel and Expense Policy
+category: OPS
+sensitivity: internal
+audience: all
+doc_id: ops-travel-expense-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+TRAVEL AND EXPENSE POLICY
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE AND SCOPE
+
+This policy governs all business-related travel and expense reimbursements at AIpportunity Pvt. Ltd. It applies to all employees who travel on behalf of the company or incur business expenses. The policy ensures that travel is conducted efficiently, expenses are reasonable and business-justified, and reimbursements are processed in a timely and consistent manner.
+
+2. TRAVEL AUTHORISATION
+
+All business travel must be approved before booking. Travel requests are submitted through the HRMS Travel module and require approval from the immediate manager. Domestic travel involving more than 3 nights requires Department Head approval. All international travel requires CHRO and CFO approval regardless of duration. Emergency travel arrangements may be made in parallel with approval processes but authorisation must be obtained within 24 hours.
+
+3. BOOKING TRAVEL
+
+All travel bookings must be made through the company's approved travel management company (TMC), currently Cox & Kings Business Travel. Direct bookings on personal accounts are not reimbursable unless the TMC is unavailable and prior approval is obtained. Bookings through the TMC must be made at least 7 days before travel to qualify for lowest available fare. Bookings made less than 7 days in advance without business justification may be partially reimbursed at the standard economy class fare for the equivalent advance booking.
+
+4. AIR TRAVEL
+
+Band 1–4 employees are entitled to economy class air travel. Band 5–6 employees may travel business class on flights exceeding 4 hours. Band 7 employees travel business class for all flights. Upgrades using personal frequent flyer miles are permitted only if no additional cost is incurred by the company. Seat selection fees beyond the standard free seat are personal expenses.
+
+5. ACCOMMODATION
+
+5.1 Hotel Category
+Band 1–3: Hotels rated up to 3 stars or equivalent, maximum INR 4,000 per night (metros) / INR 3,000 per night (non-metros).
+Band 4–5: Hotels rated up to 4 stars, maximum INR 7,000 per night (metros) / INR 5,000 per night (non-metros).
+Band 6–7: Hotels rated up to 5 stars, maximum INR 12,000 per night.
+
+5.2 Long-Stay
+Where a project requires stays exceeding 30 consecutive nights, the company will arrange serviced apartments through the TMC, which typically offer better value. Serviced apartments are eligible for employees at all bands.
+
+5.3 Staying with Family or Friends
+Employees who choose to stay with family or friends during business travel are eligible for a flat daily accommodation allowance at 30% of the applicable hotel limit.
+
+6. DAILY ALLOWANCES (PER DIEM)
+
+Per diem covers meals and incidentals during travel. It is paid flat and does not require receipts.
+
+Domestic Per Diem:
+- Band 1–3: INR 600 per day (metro cities) / INR 450 per day (non-metro)
+- Band 4–5: INR 900 per day (metro) / INR 700 per day (non-metro)
+- Band 6–7: INR 1,200 per day (metro) / INR 900 per day (non-metro)
+
+International Per Diem: Rates are published by HR annually for each country and are aligned to Ministry of External Affairs guidelines for the relevant grade.
+
+7. LOCAL TRANSPORT
+
+7.1 Taxis and Ride-hailing
+During travel, reasonable use of taxis, auto-rickshaws, or app-based cab services is reimbursable with receipts. Airport transfers are reimbursed at actuals. Use of AC taxis for commute within the city of posting is not reimbursable.
+
+7.2 Personal Vehicle
+Employees using their personal vehicle for business travel within their city of posting are reimbursed at INR 6 per kilometre (two-wheeler) or INR 14 per kilometre (four-wheeler), upon submission of mileage logs.
+
+7.3 Company Vehicle
+Where a company-owned or leased vehicle is available, employees must use it. Fuel expenses for company vehicles are reimbursed against fuel receipts.
+
+8. ENTERTAINMENT AND CLIENT MEALS
+
+8.1 Limits
+Business meals with clients or partners are reimbursable up to INR 2,000 per person (Band 1–4) or INR 3,500 per person (Band 5 and above). The claim must specify the names and organisations of all attendees and the business purpose.
+
+8.2 Alcohol
+Alcohol is reimbursable only at client entertainment meals with explicit manager approval. Alcohol is never reimbursable at internal team meetings or company events.
+
+9. EXPENSE SUBMISSION AND REIMBURSEMENT
+
+9.1 Submission Deadline
+Expense reports must be submitted within 15 days of return from travel. Late submissions (30+ days) require manager and HRBP approval. Submissions older than 90 days will not be reimbursed without CFO approval.
+
+9.2 Required Documentation
+Original receipts are required for all claims above INR 300. Digital receipts are accepted. Credit card statements without itemised receipts are not sufficient. Per diem does not require receipts.
+
+9.3 Reimbursement Timeline
+Approved expense reports are processed within 7 working days and disbursed with the next payroll cycle or as a separate NEFT transfer for amounts above INR 5,000.
+
+10. NON-REIMBURSABLE EXPENSES
+
+The following are never reimbursed: personal entertainment (movies, tourism, non-business shopping), penalties or fines, personal grooming services, travel insurance premiums for personal coverage, flight or hotel upgrades beyond policy entitlement, minibar charges, and travel with personal guests.
+
+11. POLICY VIOLATIONS
+
+Fraudulent expense claims result in disciplinary action up to and including termination and recovery of amounts paid. Finance audits 10% of expense claims monthly.
+
+For queries, contact: finance@aiopportunity.in

@@ -1,0 +1,79 @@
+---
+title: Software License Management Policy
+category: IT
+sensitivity: restricted
+audience: IT, manager
+doc_id: it-software-license-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+SOFTWARE LICENSE MANAGEMENT POLICY
+AIpportunity Pvt. Ltd.
+[RESTRICTED — FOR IT AND MANAGERS ONLY]
+
+1. PURPOSE AND SCOPE
+
+This policy establishes the framework for managing software licences at AIpportunity Pvt. Ltd. It covers the acquisition, allocation, tracking, compliance, and retirement of all software used on company systems. Effective licence management protects the company from legal penalties arising from software non-compliance, prevents wasteful overspending on unused licences, and ensures all software in use is properly supported and secure. This policy applies to all IT staff and to managers who request or manage software for their teams.
+
+2. SOFTWARE ASSET MANAGEMENT (SAM) PROGRAMME
+
+AIpportunity Pvt. Ltd. maintains a Software Asset Management programme governed by the IT Asset Management team. All software used on company devices must be registered in the Software Asset Register (SAR), a module within the Asset Management System (AMS). The SAR records: software name and vendor, licence type, number of licences owned, number of licences allocated, renewal date, cost centre, and licence agreement terms.
+
+The SAM programme is audited annually and a Software Compliance Report is submitted to the CTO and CFO.
+
+3. SOFTWARE CATEGORIES
+
+3.1 Enterprise Licences
+Software licences managed centrally by IT for company-wide use. These include: Microsoft 365 (E3/E5 tier), Atlassian Suite (Jira, Confluence), GitHub Enterprise, Cisco collaboration and security tools, Adobe Creative Cloud (for approved departments), and ERP and HR platforms. Enterprise licences are allocated by IT based on role-based entitlements. Employees do not individually request or manage these licences.
+
+3.2 Departmental Licences
+Software licences purchased for a specific department or team and managed by the department with IT oversight. Common examples: specialised engineering tools, project management platforms, design tools, and legal research software. Departmental licences require procurement approval per the Procurement Authority Matrix before purchase.
+
+3.3 Individual Licences
+Single-user or named-user licences purchased for a specific employee based on a justified business need. Individual licence requests are submitted through the IT Self-Service portal. Manager approval and IT review are required. Finance processes the purchase.
+
+3.4 Open Source Software
+Open source software (OSS) use is permitted for development purposes subject to licence compatibility review by IT and the Engineering team. OSS with copyleft licences (GPL, LGPL, AGPL) may impose obligations on company software if linked — Legal must review before OSS with copyleft licences is incorporated into client deliverables or commercial products. An OSS Bill of Materials (SBOM) is maintained for all production code.
+
+4. SOFTWARE REQUEST AND APPROVAL PROCESS
+
+4.1 Submitting a Request
+Employees requiring software not in their current provisioned set submit a Software Request Form through the IT Self-Service portal. The form requires: software name and vendor, business justification, number of users, estimated cost, and whether the software will process company or client data.
+
+4.2 IT Review
+IT reviews all software requests for: compatibility with company infrastructure, security compliance (the vendor must complete a security questionnaire for software processing company data), licensing model suitability, and whether an existing enterprise agreement already covers the use case.
+
+4.3 Approval Thresholds
+Software requests follow the Procurement Authority Matrix for financial approval. IT additionally reviews and approves all software regardless of cost due to security and architecture implications. For SaaS tools processing company data: IT Security review is mandatory; a Data Processing Agreement (DPA) with the vendor is required.
+
+5. LICENCE COMPLIANCE MONITORING
+
+5.1 Discovery and Reconciliation
+IT deploys a software discovery agent on all managed company devices that reports installed software to the SAR monthly. The IT Asset team reconciles discovered software against licensed entitlements. Any discovered software without a registered licence triggers: immediate investigation, and either licence acquisition or software uninstall within 10 working days.
+
+5.2 Over-Licensing and Under-Licensing
+Over-licensing (more licences purchased than in use) represents financial waste. Under-licensing (more users than licences) is a compliance violation. The IT Asset team reviews licence utilisation quarterly and optimises accordingly — unused licences are reallocated or surrendered at renewal.
+
+5.3 Licence Reassignment
+When an employee leaves, their individually allocated licences are either returned to the available pool or transferred to their replacement within 5 working days. Licences must not sit idle for more than 30 days before being reassigned or surrendered.
+
+6. SOFTWARE AUDIT RESPONSE
+
+Software vendors and associations (BSA, FAST) conduct periodic audits of customer licence compliance. In the event of a vendor-initiated software audit, the following applies:
+- The request must be directed to the IT Asset Manager and Legal immediately upon receipt
+- No information is provided to the auditing party without Legal review and approval
+- The IT Asset team prepares a licence position report using SAR data
+- Legal coordinates all communications with the auditing party
+
+Under-reporting licences during an audit constitutes fraud. All audit responses must be accurate.
+
+7. END-OF-LIFE (EOL) SOFTWARE
+
+Software that has reached end-of-life (vendor no longer provides security patches) must be removed or upgraded within 90 days of EOL date. Running EOL software is a security risk and may violate client contracts. IT maintains an EOL tracker and notifies relevant teams 6 months before EOL dates. EOL exceptions require CTO sign-off and a documented mitigation plan.
+
+8. PENALTIES FOR NON-COMPLIANCE
+
+Installing unlicensed software on company devices is a disciplinary offence. Discovery of unlicensed software results in: mandatory disclosure, immediate uninstall, formal investigation into how it was acquired, and potential disciplinary action. The company may also be liable for financial penalties under applicable copyright law, which may be recovered from the responsible party where gross negligence or wilful misconduct is established.
+
+For queries, contact: itsupport@aiopportunity.in or it-assetmgmt@aiopportunity.in

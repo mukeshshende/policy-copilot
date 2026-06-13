@@ -1,0 +1,98 @@
+---
+title: Remote Access and VPN Policy
+category: IT
+sensitivity: internal
+audience: all
+doc_id: it-remote-access-vpn-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+REMOTE ACCESS AND VPN POLICY
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE
+
+This policy establishes standards for remote access to AIpportunity Pvt. Ltd. networks, systems, and resources from locations outside the company's offices. It applies to all employees, contractors, and third parties who access company resources remotely. As a hybrid-first organisation, remote access is a standard operating mode. This policy ensures that remote connectivity is secure, auditable, and consistent across all user groups.
+
+2. APPROVED REMOTE ACCESS METHODS
+
+2.1 VPN (Virtual Private Network)
+The primary method for accessing company internal network resources remotely is through the company's corporate VPN. The approved VPN solution is Cisco AnyConnect, deployed on company-issued laptops. VPN access is required for:
+- Access to internal file shares and on-premises applications
+- Administrative access to servers and network devices
+- Development access to internal environments
+- Any work with data classified as Restricted or Confidential
+
+2.2 Cloud Application Access
+Microsoft 365 applications (Outlook, Teams, SharePoint, OneDrive) are cloud-hosted and accessible without VPN through a web browser or the installed client application, provided MFA is completed. This is the preferred access method for standard email and collaboration tasks.
+
+2.3 Virtual Desktop Infrastructure (VDI)
+For high-sensitivity work environments and select roles, access is provided through Virtual Desktop Infrastructure. VDI provides a company-managed remote desktop session. No data is stored on the local device during a VDI session.
+
+3. VPN ACCESS REQUIREMENTS
+
+3.1 Eligibility
+All permanent employees and contractors issued a company laptop are eligible for VPN access. VPN access is provisioned automatically on joining. Third-party vendor access is governed separately and requires a formal access request and approval from IT Security.
+
+3.2 Device Requirements
+VPN may only be used from:
+- Company-issued laptops enrolled in MDM, or
+- BYOD laptops enrolled and approved for VPN access by IT
+
+VPN from personal devices not enrolled in MDM is prohibited. Employees attempting VPN connections from unapproved devices will be blocked and the attempt will be logged.
+
+3.3 MFA Requirement
+VPN connections require MFA at every login. There is no persistent VPN trust — each new connection requires MFA. This is a non-negotiable security control.
+
+4. ACCEPTABLE USE OF VPN
+
+4.1 VPN for Work Purposes
+VPN is provided for work purposes only. Employees must not use the corporate VPN to access personal services or circumvent geo-restrictions on personal streaming platforms. Doing so consumes bandwidth and routes personal traffic through company infrastructure.
+
+4.2 Split Tunnelling Policy
+AIpportunity Pvt. Ltd. does not permit split tunnelling. When the VPN is active, all traffic is routed through the company network. This ensures that company data cannot be simultaneously routed to unmonitored personal connections. Client VPN requirements that mandate a specific tunnelling configuration will be evaluated by IT on a case-by-case basis.
+
+5. PUBLIC WI-FI AND NETWORK SECURITY
+
+5.1 Mandatory VPN on Public Wi-Fi
+Employees must connect to the company VPN before accessing any company resource on public Wi-Fi networks (airports, hotels, cafes, co-working spaces). Public Wi-Fi is inherently untrusted and subject to interception.
+
+5.2 Personal Hotspot as Alternative
+Where VPN quality on public Wi-Fi is poor, employees are encouraged to use a personal mobile hotspot rather than public Wi-Fi for sensitive work. This avoids shared network infrastructure.
+
+5.3 Home Network
+Home networks are considered more trusted than public networks. VPN is still required for access to internal resources on home networks, but company data can be handled without VPN for cloud-only applications (Microsoft 365) with MFA active.
+
+6. MONITORING AND LOGGING
+
+All VPN connections are logged including: username, device identifier, connection timestamp, connection duration, and IP address of origin. Access to particularly sensitive systems through VPN is logged at the application level. Logs are retained for 12 months and are available to IT Security for investigation purposes. Employees should have no expectation of anonymity while using the corporate VPN.
+
+7. THIRD-PARTY AND VENDOR REMOTE ACCESS
+
+7.1 Approval Process
+Vendors requiring remote access to company systems must submit a formal access request to IT Security, supported by the business owner. The request must specify: the vendor name, the specific systems to be accessed, the duration, and the business justification.
+
+7.2 Access Controls for Third Parties
+Third-party remote access is provisioned through a separate, restricted network segment. Time-limited credentials are issued. All third-party sessions are logged and may be monitored in real time. Access is revoked immediately upon project completion or when the relationship ends.
+
+7.3 Privileged Third-Party Access
+Vendors requiring privileged (administrative) access must connect through the Privileged Access Management (PAM) system, which records all session activity including keystroke logs and screen recordings. This requirement is non-negotiable.
+
+8. INCIDENT RESPONSE
+
+If an employee suspects their VPN credentials have been compromised, they must:
+1. Disconnect from VPN immediately
+2. Contact IT Security at security@aiopportunity.in
+3. Do not reconnect until IT confirms the incident is resolved
+
+IT will: revoke the affected credentials, audit the VPN access log for unauthorised sessions, and investigate the source and scope of the potential breach.
+
+9. VPN TROUBLESHOOTING
+
+Common issues and first steps:
+- Cannot connect to VPN: Ensure MFA app is working; try restarting the AnyConnect client; check whether company IT has issued any VPN maintenance notice on the IT status page.
+- VPN connected but cannot access resource: The resource may require specific role-based access; raise an access request through the ITSM portal.
+- VPN performance slow: Test with personal hotspot; if consistently slow, report to IT support with location and time details.
+
+For all queries and support, contact: itsupport@aiopportunity.in

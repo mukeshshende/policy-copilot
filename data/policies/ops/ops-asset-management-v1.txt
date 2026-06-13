@@ -1,0 +1,77 @@
+---
+title: Asset Management Policy
+category: OPS
+sensitivity: internal
+audience: all
+doc_id: ops-asset-management-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+ASSET MANAGEMENT POLICY
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE AND SCOPE
+
+This policy establishes the principles and procedures for managing physical and digital assets owned by AIpportunity Pvt. Ltd. It applies to all employees, contractors, and interns who are issued or use company assets. Assets include hardware (laptops, phones, peripherals), software licences, access credentials, and facilities equipment. Proper management of assets protects company investments, ensures operational continuity, and supports regulatory compliance.
+
+2. ASSET CATEGORIES
+
+AIpportunity Pvt. Ltd. assets are categorised as follows:
+
+Category A — High Value Assets (INR 20,000 and above): Laptops, desktop computers, mobile phones, servers, network equipment. These are individually tagged, registered in the Asset Management System (AMS), and assigned to a specific employee.
+
+Category B — Medium Value Assets (INR 5,000 to INR 19,999): Monitors, headsets, docking stations, UPS units, office furniture above INR 5,000. Registered in AMS and assigned to a cost centre.
+
+Category C — Consumable and Low Value Items (below INR 5,000): Keyboards, mice, cables, stationery, adapters. Tracked at batch level; not individually tagged.
+
+3. ASSET ISSUANCE
+
+3.1 New Joiner Asset Allocation
+On the joining date, IT prepares a standard asset package for the new employee based on their role. The standard allocation is: one laptop, one headset, and applicable software licences. Employees in certain roles may receive an additional mobile phone. The employee receives and signs an Asset Acknowledgement Form (AAF) in the HRMS on Day 1. Signature confirms receipt and acceptance of custodian responsibility.
+
+3.2 Additional Asset Requests
+Additional assets (second monitor, standing desk converter, specialist equipment) are requested through the IT Asset Request portal. Requests require manager approval. Finance approves requests above INR 15,000.
+
+4. EMPLOYEE RESPONSIBILITIES
+
+4.1 Care and Maintenance
+Employees are responsible for taking reasonable care of all assigned assets. Company laptops must be kept clean, free of physical damage, and stored securely when not in use. Laptops must not be left unattended in vehicles.
+
+4.2 Loss or Damage
+Any loss, theft, or physical damage to an assigned asset must be reported to IT within 24 hours via the IT helpdesk and to Facilities for insurance purposes. Police reports are required for theft. Wilful damage or negligent loss may result in cost recovery from the employee.
+
+4.3 Software and Modifications
+Employees must not install unauthorised software on company assets. This includes personal gaming applications, pirated software, cryptocurrency mining tools, or any application not available in the company's approved software catalogue. Modification of hardware (RAM upgrades, drive replacements) is strictly prohibited without IT approval.
+
+4.4 Return of Assets
+All assets must be returned to IT on or before the last working day. Employees on garden leave must return assets within 3 working days of notice period commencement. Outstanding asset returns will be deducted from the Full and Final settlement.
+
+5. ASSET TRACKING AND AUDIT
+
+5.1 Asset Management System (AMS)
+All Category A and B assets are maintained in the AMS. The AMS records: asset tag number, make and model, purchase date, assigned employee, location, and current condition. Employees can view their assigned assets in the AMS through the HRMS portal.
+
+5.2 Physical Verification
+IT conducts a physical asset verification exercise twice per year. Employees must confirm the physical presence of all assigned assets. Discrepancies trigger an investigation. Category A assets not physically verified within 30 days of notification are flagged as potentially lost.
+
+5.3 End-of-Life Disposal
+Assets that have reached end of life are decommissioned by IT through approved e-waste disposal channels compliant with E-Waste (Management) Rules, 2016. Data is securely wiped before disposal (DoD 5220.22-M standard or physical destruction for storage media). No asset is donated or sold without IT sign-off and data sanitisation confirmation.
+
+6. SOFTWARE LICENCE MANAGEMENT
+
+All software licences are managed centrally by IT. Employees must not purchase software on personal accounts for business use without prior approval. The Software License Management Policy provides detailed guidance. IT audits software installed on company devices quarterly and removes unauthorised installations without notice.
+
+7. MOBILE DEVICE MANAGEMENT (MDM)
+
+All company-issued and BYOD (Bring Your Own Device) devices enrolled for company email access must be enrolled in the Mobile Device Management system. MDM enables: remote wipe in case of loss or theft, enforcement of screen lock policies, and separation of company data from personal data on BYOD devices. Employees consent to MDM enrolment as a condition of accessing company email on personal devices.
+
+8. ASSET DURING DISCIPLINARY ACTION OR SUSPENSION
+
+Where an employee is placed under suspension pending a disciplinary investigation, all company assets must be returned immediately. Temporary loaner equipment may be issued for personal use if a legitimate need exists, subject to IT and HR approval. Access to company systems is suspended for the duration of the investigation.
+
+9. CONTRACTOR AND VISITOR ASSETS
+
+Contractors issued company assets are governed by this policy and their contractual agreement. Temporary visitors accessing company Wi-Fi must use guest network access only. No company assets are issued to visitors.
+
+For queries, contact: itsupport@aiopportunity.in or facilities@aiopportunity.in

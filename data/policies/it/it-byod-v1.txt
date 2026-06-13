@@ -1,0 +1,92 @@
+---
+title: BYOD (Bring Your Own Device) Policy
+category: IT
+sensitivity: internal
+audience: all
+doc_id: it-byod-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+BRING YOUR OWN DEVICE (BYOD) POLICY
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE AND SCOPE
+
+This policy governs the use of personal devices — smartphones, tablets, and laptops — to access AIpportunity Pvt. Ltd. systems, applications, and data. The policy applies to all employees who wish to use their personal device for company purposes. Participation in the BYOD programme is voluntary; employees who prefer not to enrol their personal devices will be provided with company-issued alternatives for required work functions.
+
+2. BYOD PHILOSOPHY
+
+AIpportunity Pvt. Ltd. recognises that employees are productive and engaged on devices they are comfortable with. The BYOD programme is designed to offer flexibility while maintaining the security and integrity of company data. The principle guiding BYOD is containment: company data is isolated in a managed container on the personal device, and the company does not access or monitor personal content.
+
+3. ELIGIBLE DEVICES
+
+Personal devices must meet minimum specifications to be enrolled in the BYOD programme:
+
+Smartphones and Tablets:
+- iOS 16.0 or later, or Android 13.0 or later
+- Device must be under 4 years old
+- Manufacturer security support must be current (i.e., security patches still being released)
+- Device must not be jailbroken or rooted
+
+Personal Laptops:
+- Windows 11 (22H2 or later) or macOS 13 Ventura or later
+- Minimum 8 GB RAM; SSD storage
+- Full disk encryption capable (BitLocker or FileVault)
+- Device must have an active, updated anti-virus/EDR solution
+
+Devices that do not meet these requirements are not eligible for BYOD enrolment. Employees using non-eligible personal devices to access company data without enrolment will be in violation of the Acceptable Use Policy.
+
+4. ENROLMENT PROCESS
+
+4.1 Requesting Enrolment
+Employees request BYOD enrolment through the IT Self-Service portal. The request specifies the device type and operating system. IT reviews the request within 3 working days.
+
+4.2 MDM Installation
+Approved BYOD devices must have the company's Mobile Device Management (MDM) agent installed (Microsoft Intune). For mobile devices, Intune creates a managed work profile or managed container. For personal laptops, a managed profile is applied. Employees must consent to MDM enrolment as a condition of BYOD participation.
+
+4.3 What MDM Manages
+MDM on BYOD devices manages only the work container and enforces:
+- Screen lock with PIN/biometric
+- Encryption of the work container
+- Remote wipe of company data only (not personal data)
+- Access to approved company apps within the managed container
+
+4.4 What MDM Does Not Access
+The MDM system does not: read personal emails, access personal photos, read personal text messages, track GPS location, access personal app data, or remotely wipe personal data. IT has technically confirmed that the Intune configuration for BYOD is scoped to the managed container only.
+
+5. EMPLOYEE RESPONSIBILITIES
+
+5.1 Device Maintenance
+BYOD employees are responsible for maintaining their personal device including: installing OS security updates promptly (within 7 days of release), keeping the device in working condition, and ensuring anti-virus software (where applicable) is active and updated.
+
+5.2 Physical Security
+Personal devices with company access must be: locked with a PIN, pattern, or biometric; kept physically secure; not left unattended in vehicles or public spaces. Employees must report lost or stolen BYOD devices to IT within 4 hours of discovery so company data can be remotely wiped from the device.
+
+5.3 Separation of Data
+Employees must not copy or move company data from the managed container to personal storage on the device (personal drive, personal cloud, personal email). Work-related documents must remain in company-managed storage (SharePoint, OneDrive for Business).
+
+5.4 Unenrolment
+When an employee leaves the company or chooses to leave the BYOD programme, IT remotely removes the work container and all company data from the device. Personal data is unaffected. The employee must confirm unenrolment completion through the IT portal.
+
+6. COMPANY RESPONSIBILITIES
+
+6.1 Support
+IT provides support for issues related to the work container and company applications on enrolled BYOD devices. IT does not provide support for personal applications, the personal operating system, hardware faults, or personal software issues.
+
+6.2 Data Liability
+The company is not liable for personal data on BYOD devices. Employees back up personal data at their own responsibility. The company is not responsible for any personal data removed during device wipe procedures if the employee fails to report a lost device promptly and a full wipe becomes necessary.
+
+7. NETWORK ACCESS
+
+BYOD devices connecting to company corporate Wi-Fi must use the designated BYOD network segment, not the corporate internal network. The BYOD network segment provides internet access and access to company cloud applications but not direct access to internal on-premises servers or network shares. VPN access from personal devices requires IT approval and MDM enrolment.
+
+8. APPROVED APPLICATIONS FOR BYOD
+
+The following applications may be installed and used within the BYOD managed container: Microsoft Outlook, Microsoft Teams, Microsoft Office suite, company VPN client (if approved), and approved project management tools. Employees must not access company systems through non-approved applications. The approved application list is maintained in the IT Self-Service portal.
+
+9. BYOD PROGRAMME TERMINATION
+
+AIpportunity Pvt. Ltd. reserves the right to terminate the BYOD programme, require device unenrolment, or revoke individual BYOD access with reasonable notice. Access may be revoked immediately in cases of security incidents, non-compliance with this policy, or if the enrolled device no longer meets minimum specifications.
+
+For queries or enrolment, contact: itsupport@aiopportunity.in

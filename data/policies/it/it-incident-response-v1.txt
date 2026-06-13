@@ -1,0 +1,136 @@
+---
+title: Incident Response Runbook
+category: IT
+sensitivity: confidential
+audience: IT
+doc_id: it-incident-response-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+INCIDENT RESPONSE RUNBOOK
+AIpportunity Pvt. Ltd.
+[CONFIDENTIAL — FOR IT TEAM ONLY]
+
+1. PURPOSE AND CLASSIFICATION
+
+This document is the operational runbook for the IT Security Incident Response process at AIpportunity Pvt. Ltd. It is classified CONFIDENTIAL and restricted to the IT Security team, IT Operations team, and the designated Incident Response Team (IRT). Disclosure of this document or its contents — including response procedures, tooling, system details, and infrastructure topology — to parties outside the IT team requires CTO approval. Wide distribution of incident response procedures would enable adversaries to anticipate and evade detection.
+
+2. INCIDENT CLASSIFICATION FRAMEWORK
+
+All security events are classified into one of four priority levels based on actual or potential business impact:
+
+P1 — Critical: Active exploitation in progress; data confirmed exfiltrated; business operations halted or severely impaired; ransomware active on company systems; critical client system compromised.
+Response SLA: Immediate (within 15 minutes of detection). 24x7 response. All-hands IRT activation. CMT notification within 1 hour.
+
+P2 — High: Suspected active attack; significant data at risk; partial service disruption; compromised privileged account; malware detected but not confirmed spreading.
+Response SLA: Within 1 hour. On-call responders activated. IRT lead notified immediately.
+
+P3 — Medium: Anomalous behaviour detected; vulnerability exploited in non-critical system; phishing campaign targeting employees; account compromise of standard user.
+Response SLA: Within 4 hours during business hours, 8 hours outside. Standard escalation process.
+
+P4 — Low: Policy violation with no confirmed data impact; isolated malware on quarantined device; failed brute-force attempts; false positives requiring investigation.
+Response SLA: Within 1 business day. Standard ticketing process.
+
+3. INCIDENT RESPONSE TEAM (IRT)
+
+3.1 Composition
+- Incident Commander: Head of IT / CISO
+- Security Lead: Senior IT Security Engineer
+- Infrastructure Lead: IT Operations Manager
+- Communications Lead: Head of Communications (for external-impact incidents)
+- Legal Lead: General Counsel (for incidents with regulatory or legal implications)
+- Business Lead: Relevant Department Head (for incidents affecting specific business units)
+
+3.2 IRT Contact Information
+IRT contacts and escalation path are maintained in a secure, offline-accessible call tree held by the Head of IT. The call tree is updated monthly and tested quarterly. IT team members must ensure their personal mobile numbers in the call tree are current.
+
+4. INCIDENT RESPONSE LIFECYCLE
+
+4.1 Phase 1 — Detection and Identification
+Sources of detection: SIEM (Microsoft Sentinel) alerts, EDR alerts (Microsoft Defender for Endpoint), employee reports via security@aiopportunity.in, phishing report button in Outlook, cloud security hub alerts, third-party threat intelligence feeds.
+
+All alerts are triaged by the on-call IT Security engineer. Triage includes: initial classification (P1–P4), confirming whether the alert is a true positive or false positive, and creating an incident ticket in the ITSM system. True positives at P1 and P2 trigger immediate IRT activation.
+
+4.2 Phase 2 — Containment
+Containment strategy depends on incident type:
+
+Network-level containment: Isolate affected network segments using VLAN segregation or firewall rules. Block identified attacker IPs at perimeter firewall. For cloud incidents, apply emergency network security group rules.
+
+Endpoint containment: Use Microsoft Defender for Endpoint to isolate affected devices remotely. Isolated devices retain network connectivity only to the Defender cloud for remediation guidance. Isolation command: Defender Portal → Device → Isolate Device.
+
+Account containment: Disable compromised user accounts in Azure AD immediately. Revoke all active sessions (Azure AD portal → User → Revoke sessions). Force MFA re-registration. Audit all recent activities of the compromised account.
+
+Data containment: Identify scope of data accessed or exfiltrated using DLP alert logs and Azure Information Protection audit logs. Revoke external sharing links. Notify Legal if client or regulated data is involved.
+
+4.3 Phase 3 — Eradication
+After containment, eradicate the threat:
+- Remove malware: Full scan and clean using Defender for Endpoint. Re-image endpoints where cleaning is uncertain.
+- Patch: Apply patches for the exploited vulnerability. If zero-day, apply compensating controls and escalate to vendor.
+- Credential reset: All affected accounts receive forced password reset and new MFA registration.
+- Close initial access vector: Identify and close the initial attack entry point (phishing link blocked, vulnerable service patched, misconfiguration corrected).
+
+4.4 Phase 4 — Recovery
+Restore affected systems to clean state:
+- Validate that all malware is removed before restoration
+- Restore from clean, pre-incident backups where system integrity is uncertain
+- Verify system integrity using file integrity monitoring baselines
+- Bring services back online incrementally, monitoring for signs of re-infection
+- P1/P2 recovery requires IRT sign-off before returning systems to production
+
+4.5 Phase 5 — Post-Incident Review
+Within 5 business days of incident resolution, the IRT conducts a post-incident review covering:
+- Timeline of the incident from first detection to resolution
+- Root cause analysis (using a structured framework: 5 Whys or fishbone)
+- Lessons learned: What worked, what did not
+- Corrective and preventive actions with owners and due dates
+- Metrics: Time to detect (TTD), time to contain (TTC), time to recover (TTR)
+
+Post-incident review findings are documented in the ITSM system and shared with the CTO. P1 incidents are additionally presented to the CMT.
+
+5. RANSOMWARE SPECIFIC PROCEDURE
+
+If ransomware is suspected:
+1. Do not attempt to decrypt or remove the ransomware yourself
+2. Immediately isolate the affected device using Defender remote isolation
+3. Notify the IRT immediately (P1 activation)
+4. Do not pay any ransom demand without CTO, CEO, and Legal authorisation
+5. Preserve evidence: Do not power off affected systems; IT will create forensic images
+6. Identify lateral movement: Audit all network connections from affected systems in the past 72 hours
+
+5.1 Backup Verification
+The IRT immediately verifies backup integrity to assess recovery options. Offline backups are the first recovery path. Cloud backups are assessed for contamination (ransomware may have been active for days before discovery).
+
+6. EVIDENCE PRESERVATION
+
+For all P1 and P2 incidents:
+- Preserve system logs, SIEM events, and network flow data in a read-only forensic evidence store
+- Create forensic disk images of affected endpoints using approved imaging tools before any remediation
+- Document the chain of custody for all forensic evidence
+- Preserve cloud audit logs (Azure Activity Log, AWS CloudTrail) before they expire
+- Evidence must be preserved for a minimum of 2 years or until any legal proceedings are concluded
+
+7. REGULATORY AND LEGAL NOTIFICATION
+
+7.1 Assessment
+Legal assesses within 4 hours of a confirmed P1 incident whether the incident triggers notification obligations under applicable law (DPDP Act 2023, contractual SLA obligations, client contractual requirements).
+
+7.2 Client Notification
+Where client data is impacted, the assigned Client Relationship Manager and Legal jointly determine client notification requirements, timeline, and content. Template notifications are in the Legal SharePoint.
+
+7.3 Regulatory Notification
+Where regulatory notification is required, Legal prepares and submits the notification within the legally required timeframe. IT provides the technical incident summary for inclusion.
+
+8. TOOLING REFERENCE
+
+- SIEM: Microsoft Sentinel (security.microsoft.com)
+- EDR: Microsoft Defender for Endpoint (security.microsoft.com/mde)
+- PAM: CyberArk Vault (internal URL: pam.aiopportunity.internal)
+- ITSM: ServiceNow (itsm.aiopportunity.internal)
+- Backup console: Veeam (backup.aiopportunity.internal)
+- Cloud security: Azure Security Center / AWS Security Hub
+
+Tooling credentials and access details are in the PAM vault. Under no circumstances are tool credentials stored in this document or any other publicly accessible location.
+
+For incident reporting, contact: security@aiopportunity.in (monitored 24x7)
+On-call security engineer: Available via the IRT call tree held by the Head of IT

@@ -1,0 +1,104 @@
+---
+title: Procurement Authority Matrix
+category: OPS
+sensitivity: restricted
+audience: manager, Leadership
+doc_id: ops-procurement-authority-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+PROCUREMENT AUTHORITY MATRIX
+AIpportunity Pvt. Ltd.
+[RESTRICTED — FOR MANAGERS AND LEADERSHIP ONLY]
+
+1. PURPOSE
+
+This document defines the financial authority levels for procurement decisions at AIpportunity Pvt. Ltd. It establishes who can approve what, up to which value, and under what conditions. Clear authority limits reduce approval bottlenecks for routine purchases while maintaining appropriate oversight for significant commitments. This matrix is binding and supersedes any informal approval arrangements.
+
+2. GUIDING PRINCIPLES
+
+2.1 Segregation of Duties
+The person who raises a purchase requisition must not be the same person who approves it. Finance processes payment only after the approval chain specified in this matrix is complete.
+
+2.2 Budgetary Pre-approval
+All purchases must be within the approved annual operating budget for the relevant cost centre. Purchases that exceed the budget require CFO approval regardless of the value-based authority level.
+
+2.3 Competitive Sourcing
+Purchases above INR 1 lakh must be sourced competitively: a minimum of 3 vendor quotes unless purchasing from an empanelled vendor under an existing framework agreement. Deviation from competitive sourcing requires Head of Procurement approval with documented justification.
+
+3. PURCHASE APPROVAL AUTHORITY — OPERATING EXPENDITURE
+
+The following authority limits apply to individual purchase transactions (not cumulative monthly or annual spend):
+
+Up to INR 25,000:
+- Approved by: Immediate Manager (Band 3 and above)
+- Conditions: Must be within budget; standard items only
+
+INR 25,001 to INR 1,00,000:
+- Approved by: Department Head (Band 5 and above)
+- Conditions: Must be within budget; 3 quotes required above INR 1 lakh threshold does not apply here but best practice is to obtain at least 2 quotes
+
+INR 1,00,001 to INR 5,00,000:
+- Approved by: Department Head + Head of Procurement
+- Conditions: Must be within budget; minimum 3 quotes; empanelled vendor preferred
+
+INR 5,00,001 to INR 25,00,000:
+- Approved by: Department Head + Head of Procurement + CFO
+- Conditions: Must be within budget; competitive sourcing mandatory; Legal review for new vendor contracts
+
+Above INR 25,00,000:
+- Approved by: CFO + CEO
+- Conditions: Board notification for amounts above INR 1 crore; all previous conditions apply; Legal review mandatory
+
+4. PURCHASE APPROVAL AUTHORITY — CAPITAL EXPENDITURE
+
+Capital expenditure (assets with useful life exceeding 1 year, appearing on the balance sheet) follows a separate authority matrix:
+
+Up to INR 2,00,000:
+- Approved by: Department Head + Finance
+- Conditions: Must be in approved capex budget
+
+INR 2,00,001 to INR 25,00,000:
+- Approved by: Department Head + Finance + CFO
+- Conditions: Must be in approved capex budget; procurement of equipment requires IT review for technology assets
+
+Above INR 25,00,000:
+- Approved by: CFO + CEO
+- Conditions: Board approval required above INR 50 lakhs
+
+5. IT PROCUREMENT AUTHORITY
+
+All IT hardware, software licences, SaaS subscriptions, and cloud services are additionally subject to IT Security review and CTO approval for purchases above INR 5 lakhs, irrespective of the general authority limits above. The rationale is that technology decisions carry architectural and security implications beyond the commercial dimension.
+
+Recurring SaaS subscriptions above INR 2 lakhs per year must be reviewed annually by IT and Finance even when the original purchase was approved.
+
+6. HR AND TRAINING PROCUREMENT
+
+Learning and development expenditure within the approved annual L&D budget is approved by the Department Head up to INR 5 lakhs. Above INR 5 lakhs, CHRO approval is required. Individual employee certification sponsorship follows the Learning and Development Policy.
+
+Recruitment agency fees and RPO contracts are approved by CHRO up to INR 20 lakhs, and by CHRO + CFO above INR 20 lakhs.
+
+7. EMERGENCY PROCUREMENT
+
+In genuine operational emergencies, the immediate manager may verbally authorise a purchase outside the standard process. The verbal authorisation must be followed by a written ratification within 24 hours using the Emergency Purchase Justification Form. Finance will process the payment only after ratification is received. Repeated use of the emergency provision is treated as a process compliance failure.
+
+8. CONTRACT RENEWAL AUTHORITY
+
+Renewing an existing contract follows the same authority matrix as new contracts based on the annual contract value. Automatic renewals are not permitted — all contract renewals require affirmative approval at the appropriate level at least 30 days before the renewal date. Procurement maintains a contract renewal calendar and notifies business owners 60 days in advance.
+
+9. PROHIBITED ACTIONS
+
+The following actions are explicitly prohibited regardless of the approver's grade or authority level:
+- Splitting a single purchase into multiple transactions to avoid a higher approval threshold
+- Approving purchases for which the approver has a personal financial interest
+- Committing the company to a contract or purchase order without written approval
+- Backdating purchase orders to a date before the approval was received
+
+Violations of the authority matrix are treated as financial misconduct and are subject to disciplinary action up to and including termination and legal proceedings.
+
+10. AMENDMENT PROCESS
+
+This matrix is reviewed annually by Finance, Procurement, and Legal. Changes to authority levels require CFO approval. The current version is accessible on the Finance SharePoint. Department Heads are responsible for ensuring their teams are aware of and comply with the current version.
+
+For queries, contact: procurement@aiopportunity.in or finance@aiopportunity.in

@@ -1,0 +1,79 @@
+---
+title: Leave and Attendance Policy
+category: HR
+sensitivity: internal
+audience: all
+doc_id: hr-leave-policy-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+LEAVE AND ATTENDANCE POLICY
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE AND SCOPE
+
+This policy establishes the framework for leave entitlements, attendance expectations, and absence management at AIpportunity Pvt. Ltd. It applies to all full-time, part-time, and contractual employees at all locations including Hyderabad (HQ), Bengaluru, and Pune. The policy is designed to ensure operational continuity while supporting employee wellbeing and work-life balance.
+
+2. ATTENDANCE EXPECTATIONS
+
+2.1 Standard Working Hours
+The standard working week at AIpportunity Pvt. Ltd. is 40 hours spread across five working days, Monday through Friday. Core hours are 10:00 AM to 5:00 PM IST. Employees are expected to be available and productive during core hours regardless of their flex arrangements.
+
+2.2 Flexible Working Arrangements
+Employees may apply for flexible start and end times subject to manager approval and role requirements. Client-facing roles require adherence to client timezone requirements which may override standard flexibility. All flexible arrangements must be documented and approved in the HRMS system within two weeks of commencement.
+
+2.3 Attendance Tracking
+Attendance is recorded through the biometric system at office locations and through VPN login records for remote employees. Employees must mark their attendance daily. Three unexplained absences in a rolling 30-day period will trigger a mandatory meeting with the immediate manager and HR Business Partner.
+
+3. LEAVE ENTITLEMENTS
+
+3.1 Earned Leave (EL)
+All confirmed employees are entitled to 18 days of earned leave per calendar year, accrued at 1.5 days per month from the date of confirmation. Earned leave can be carried forward up to a maximum of 30 days. Leave in excess of 30 days at year-end will be lapsed. Encashment of up to 15 days of earned leave is permitted once per year subject to business requirements.
+
+3.2 Casual Leave (CL)
+Employees are entitled to 7 days of casual leave per calendar year. Casual leave is credited in full at the start of the year for confirmed employees, and on a pro-rata basis for employees who join during the year. Casual leave cannot be carried forward and will lapse at year-end. Casual leave cannot be combined with earned leave or other planned leave for a continuous absence exceeding 3 days without manager approval.
+
+3.3 Sick Leave (SL)
+Employees are entitled to 7 days of sick leave per calendar year. Sick leave beyond 2 consecutive days requires a medical certificate from a registered medical practitioner. Sick leave cannot be carried forward. Where an employee exhausts sick leave, further absences due to illness will be adjusted against earned leave or treated as leave without pay at HR's discretion.
+
+3.4 Maternity Leave
+Female employees are entitled to 26 weeks of paid maternity leave for the first two children, in accordance with the Maternity Benefit (Amendment) Act, 2017. For subsequent childbirths, the entitlement is 12 weeks. Commissioning mothers and adopting mothers are entitled to 12 weeks. The leave may commence up to 8 weeks before the expected date of delivery. Medical documentation confirming pregnancy and expected delivery date must be submitted to HR at least 4 weeks before the intended commencement of leave.
+
+3.5 Paternity Leave
+Male employees are entitled to 5 days of paid paternity leave to be availed within 30 days of the child's birth. The leave must be applied in the HRMS with the birth certificate or hospital documentation.
+
+3.6 Bereavement Leave
+Employees may avail up to 3 days of paid bereavement leave on the death of an immediate family member (spouse, child, parent, sibling). Additional leave may be approved at the manager's discretion on a case-by-case basis and adjusted against earned leave.
+
+3.7 Leave Without Pay (LWP)
+Where an employee has exhausted all applicable leave balances, absence will be treated as leave without pay. LWP requires manager and HR approval. Salary for the period of LWP will be deducted proportionately.
+
+4. LEAVE APPLICATION PROCESS
+
+4.1 Advance Notice
+Earned leave must be applied for at least 5 working days in advance except in emergencies. Managers must respond to leave applications within 2 working days. Failure to respond within this window will result in the application being treated as approved.
+
+4.2 Emergency and Unplanned Leave
+For unplanned absences, the employee must notify their manager and mark leave in the HRMS by 10:00 AM on the day of absence. Failure to notify will result in the absence being marked as leave without pay until regularised.
+
+4.3 Manager Approval
+Managers are responsible for ensuring adequate coverage before approving leave. No more than 25% of the team may be on leave simultaneously. Conflicts will be resolved on a first-applied, first-approved basis.
+
+5. HOLIDAYS
+
+5.1 National and Public Holidays
+AIpportunity Pvt. Ltd. observes all national holidays declared by the Government of India. A holiday calendar is published at the start of each calendar year on the HRMS portal.
+
+5.2 Optional Holidays
+Employees are entitled to 2 optional holidays per year from a list published by HR. These must be applied and approved in advance like earned leave.
+
+6. POLICY VIOLATIONS
+
+Misrepresentation of leave or repeated unexplained absences may attract disciplinary action up to and including termination. All leave records are audited quarterly by HR.
+
+7. POLICY REVIEW
+
+This policy will be reviewed annually by HR. Amendments will be communicated via the HRMS portal and company intranet. Employees are responsible for reading and complying with the latest version.
+
+For queries, contact: hr@aiopportunity.in

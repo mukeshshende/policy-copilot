@@ -1,0 +1,77 @@
+---
+title: Code of Conduct
+category: HR
+sensitivity: internal
+audience: all
+doc_id: hr-code-of-conduct-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+CODE OF CONDUCT
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE
+
+The Code of Conduct defines the standards of professional behaviour expected of every individual associated with AIpportunity Pvt. Ltd. It applies to all employees, contractors, interns, and consultants across all offices in Hyderabad, Bengaluru, and Pune. The purpose is to create a workplace that is respectful, ethical, inclusive, and legally compliant.
+
+Adherence to this Code is a condition of employment. Violations may result in disciplinary action including termination.
+
+2. PROFESSIONAL INTEGRITY
+
+2.1 Honesty and Transparency
+All employees must conduct themselves with honesty in all work-related matters. This includes accurate reporting of work hours, project status, expenses, and client interactions. Misrepresentation of facts to management, clients, or colleagues is a serious breach of this Code.
+
+2.2 Conflicts of Interest
+Employees must avoid situations where personal interests conflict or appear to conflict with company interests. A conflict of interest exists when an employee's personal relationships, financial interests, or outside activities influence or could influence their professional judgements. All potential conflicts must be disclosed in writing to the HR Business Partner. Common examples include: employment with a competitor, investment in a vendor or client, or involvement in a related family business.
+
+2.3 Confidentiality
+Employees are entrusted with confidential information including client data, product roadmaps, financial projections, and personnel information. Such information must not be disclosed outside authorised channels. Confidentiality obligations survive employment and continue after an employee leaves AIpportunity Pvt. Ltd.
+
+3. RESPECTFUL WORKPLACE
+
+3.1 Non-Discrimination
+AIpportunity Pvt. Ltd. is an equal opportunity employer. Discrimination based on gender, age, religion, caste, disability, sexual orientation, marital status, or national origin is strictly prohibited in all employment decisions including hiring, promotion, compensation, and project assignment.
+
+3.2 Respectful Communication
+Employees are expected to communicate professionally and respectfully at all times — in person, over email, on messaging platforms, and in client interactions. Offensive language, personal attacks, and derogatory remarks are not acceptable regardless of the medium.
+
+3.3 Zero Tolerance for Harassment
+Any form of harassment — verbal, physical, visual, or psychological — is prohibited. This includes unwanted physical contact, offensive jokes, threats, intimidation, and cyberbullying. The Anti-Harassment and POSH Policy sets out detailed reporting mechanisms and investigation processes.
+
+4. USE OF COMPANY RESOURCES
+
+4.1 Equipment and Systems
+Company-issued equipment including laptops, mobile phones, and access credentials is for business use. Incidental personal use is permitted but must not interfere with professional responsibilities or consume excessive resources. Employees are responsible for the safekeeping of all company-issued equipment.
+
+4.2 Intellectual Property
+All work products created by employees in the course of their employment — including code, documents, designs, and data — are the intellectual property of AIpportunity Pvt. Ltd. Employees may not use company-created IP for personal projects or share it with third parties without explicit written authorisation.
+
+4.3 Expense Claims
+Expense claims must reflect actual and legitimate business expenses. Fictitious, inflated, or duplicate claims constitute fraud and will be subject to disciplinary action and recovery. The Travel and Expense Policy provides detailed guidance on permissible expenses and claim procedures.
+
+5. COMPLIANCE WITH LAWS
+
+All employees must comply with applicable laws and regulations including the Information Technology Act 2000, the Sexual Harassment of Women at Workplace Act 2013, the Personal Data Protection framework, and applicable labour laws. Employees who become aware of potential legal violations must report them through the whistleblower mechanism described in Section 7.
+
+6. SOCIAL MEDIA AND EXTERNAL COMMUNICATIONS
+
+6.1 Personal Social Media
+Employees must not share confidential company information on personal social media. Opinions expressed on personal platforms must not be attributed to AIpportunity Pvt. Ltd. unless the employee is authorised to speak on the company's behalf. Disparagement of clients, colleagues, or the company on social media will be treated as a disciplinary matter.
+
+6.2 Media and Public Inquiries
+Only designated spokespersons may speak to media on behalf of the company. All media inquiries must be directed to the Communications team at communications@aiopportunity.in.
+
+7. REPORTING VIOLATIONS AND WHISTLEBLOWER PROTECTION
+
+Employees who become aware of violations of this Code, applicable laws, or company policies must report them. Reports may be made to the immediate manager, HR Business Partner, or anonymously through the whistleblower portal at ethics.aiopportunity.in. AIpportunity Pvt. Ltd. strictly prohibits retaliation against employees who make good-faith reports. Any retaliatory action will itself be treated as a disciplinary offence.
+
+8. DISCIPLINARY CONSEQUENCES
+
+Violations of this Code are handled through the following progressive framework: verbal warning, written warning, final written warning, and termination. Gross misconduct including fraud, violence, or serious data breaches may result in immediate termination without prior warnings. All disciplinary actions are documented and maintained in the employee's personnel record.
+
+9. ACKNOWLEDGEMENT
+
+All employees must acknowledge receipt and understanding of this Code of Conduct at the time of joining and upon any material update. Acknowledgements are recorded in the HRMS.
+
+For queries, contact: hr@aiopportunity.in

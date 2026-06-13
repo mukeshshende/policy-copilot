@@ -1,0 +1,88 @@
+---
+title: Acceptable Use Policy
+category: IT
+sensitivity: internal
+audience: all
+doc_id: it-acceptable-use-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+ACCEPTABLE USE POLICY (AUP)
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE AND SCOPE
+
+The Acceptable Use Policy defines the standards for using AIpportunity Pvt. Ltd.'s information technology resources. It applies to all employees, contractors, interns, and any other individuals who access company IT systems, networks, applications, and data — whether on company premises or remotely. "IT resources" includes all company-owned hardware, software, cloud services, network infrastructure, email, internet access, and data stored on any of these systems.
+
+Compliance with this policy is a condition of access to company IT resources. Violations may result in disciplinary action up to and including termination and, where applicable, criminal prosecution.
+
+2. ACCEPTABLE USE
+
+2.1 Business Purpose
+IT resources are provided primarily for business purposes. Employees are expected to use them to fulfil their professional responsibilities effectively and efficiently. Incidental personal use that does not: interfere with job performance, consume excessive bandwidth or storage, violate any other section of this policy, or create legal liability for the company — is permitted.
+
+2.2 Responsible Use
+Employees must use IT resources responsibly. This means: keeping systems updated when prompted, locking screens when stepping away, using strong passwords and MFA where required, reporting suspected security incidents promptly, and not circumventing technical security controls.
+
+3. PROHIBITED ACTIVITIES
+
+The following are explicitly prohibited. This list is not exhaustive — the overarching standard is that any use that could harm the company, its employees, clients, or third parties is prohibited.
+
+3.1 Illegal Activities
+Using company IT resources for any activity that violates applicable Indian or international laws, including: copyright infringement, piracy, downloading or distributing illegal content, hacking or unauthorised access to external systems, and engaging in financial fraud.
+
+3.2 Offensive or Harassing Content
+Accessing, creating, storing, or distributing content that is sexually explicit, pornographic, discriminatory, threatening, harassing, or otherwise offensive. This applies to emails, messages, shared drives, social media accessed on company devices, and any other medium.
+
+3.3 Circumventing Security Controls
+Attempting to disable, bypass, or tamper with security software, firewalls, web filters, data loss prevention tools, or any other technical control. Using VPN services not provided by the company to bypass company network controls is prohibited.
+
+3.4 Unauthorised Software
+Installing software not approved through the company's software catalogue, including: personal productivity apps, gaming applications, cryptocurrency mining tools, peer-to-peer file sharing software, and tools that create hidden channels out of the corporate network.
+
+3.5 Data Exfiltration
+Transferring company data to personal storage devices (USB drives, personal cloud accounts, personal email) without authorisation. The Data Classification Policy defines specific controls for sensitive data categories.
+
+3.6 Misrepresentation
+Using IT resources to impersonate another employee, create fictitious accounts, send forged communications, or misrepresent identity in any form.
+
+3.7 Excessive Personal Use
+Using company internet bandwidth for personal streaming, gaming, or large personal downloads during working hours in a manner that degrades network performance for others.
+
+4. EMAIL AND MESSAGING
+
+4.1 Email Ownership
+Company email accounts are company property. Employees should have no expectation of privacy in company email. The company reserves the right to access email accounts for legitimate business, compliance, or investigation purposes with appropriate authorisation.
+
+4.2 Phishing Awareness
+Employees must not click links or open attachments in unsolicited or suspicious emails. All suspected phishing emails must be reported to the IT helpdesk using the "Report Phishing" button in Microsoft Outlook. Do not forward suspicious emails to colleagues.
+
+4.3 External Sharing
+Sharing confidential or client data via email to personal accounts or unverified external parties is prohibited. Approved file-sharing channels are Microsoft SharePoint and OneDrive for Business.
+
+5. INTERNET USE
+
+5.1 Permitted Internet Access
+Internet access is provided for business use and reasonable incidental personal use. Access is monitored and filtered. Employees must be aware that all internet activity on company networks is logged.
+
+5.2 Social Media
+Employees may access personal social media during breaks. They must not share confidential information, post negative content about clients, colleagues, or the company, or access social media in a manner that creates reputational risk.
+
+6. MONITORING AND PRIVACY
+
+6.1 Monitoring
+AIpportunity Pvt. Ltd. monitors the use of its IT resources including internet usage, email logs, application access logs, and device activity logs. Monitoring is proportionate and for legitimate business purposes including: security incident investigation, compliance verification, and performance management.
+
+6.2 Employee Privacy
+On personal devices enrolled in MDM, the MDM system accesses and manages only the company data container. Personal applications, messages, and photos are not accessible to the company.
+
+7. REPORTING VIOLATIONS
+
+Employees who observe or suspect a violation of this policy must report it to the IT Security team at security@aiopportunity.in or through the anonymous whistleblower portal. Reports made in good faith are protected from retaliation.
+
+8. CONSEQUENCES OF VIOLATIONS
+
+Violations are investigated and may result in: verbal or written warning, suspension of IT access, disciplinary action up to termination, civil or criminal liability, and cost recovery for damages caused. The severity of consequences is proportionate to the nature and impact of the violation.
+
+For queries, contact: itsupport@aiopportunity.in

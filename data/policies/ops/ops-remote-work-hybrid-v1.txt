@@ -1,0 +1,89 @@
+---
+title: Remote Work and Hybrid Policy
+category: OPS
+sensitivity: internal
+audience: all
+doc_id: ops-remote-work-hybrid-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+REMOTE WORK AND HYBRID POLICY
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE
+
+This policy establishes the framework for remote and hybrid working arrangements at AIpportunity Pvt. Ltd. It defines eligibility, expectations, responsibilities, and operational standards to ensure that remote and hybrid work is productive, secure, and equitable. The policy applies to all employees at our Hyderabad, Bengaluru, and Pune offices.
+
+2. HYBRID WORK MODEL
+
+AIpportunity Pvt. Ltd. operates a hybrid-first model. The standard expectation is that employees are in the office at least 3 days per week (Tuesday, Wednesday, and Thursday are the designated anchor days), with the remaining 2 days flexible to work from home or another approved remote location. The anchor day structure enables consistent team collaboration, meetings with clients, and in-person reviews. Deviations from the standard anchor days require manager approval.
+
+3. ELIGIBILITY FOR REMOTE WORK
+
+3.1 All Employees
+All permanent and confirmed contract employees are eligible to participate in the hybrid model from their date of joining, subject to role requirements.
+
+3.2 Exceptions — Office-First Roles
+Certain roles require full in-office presence due to their nature: IT infrastructure and on-site support roles, reception and facilities staff, lab and hardware roles, and roles with client co-location requirements. Employees in these roles are designated "office-first" in the HRMS and are not eligible for standard hybrid arrangements.
+
+3.3 Probationary Employees
+Employees on probation are expected to work from office 5 days per week for the first 3 months to facilitate faster integration, onboarding, and manager feedback. After 3 months, they may transition to the standard hybrid model with manager approval.
+
+4. FULL REMOTE WORK ARRANGEMENTS
+
+4.1 Definition
+Full remote work means working from a non-office location for an extended period (more than 4 consecutive weeks). Full remote arrangements are exceptional and must be approved.
+
+4.2 Approval Process
+Applications for full remote arrangements are submitted to the manager and HRBP with justification. Approved arrangements specify: duration (maximum 6 months initially, renewable), role deliverables, expected availability hours, and a return-to-office plan. Full remote arrangements for client-facing roles require client consent.
+
+4.3 International Remote Work
+Working from a location outside India is not permitted without explicit approval from HR, Legal, and Finance. International remote work creates potential tax, legal, and visa compliance risks that must be assessed case by case. Employees who relocate internationally without approval may have employment terminated.
+
+5. WORKSPACE REQUIREMENTS
+
+5.1 Home Office Setup
+Employees working remotely are responsible for maintaining a suitable workspace with: reliable broadband internet (minimum 25 Mbps), an ergonomic seating arrangement, adequate lighting, and a private space suitable for confidential work and video calls.
+
+5.2 Equipment
+AIpportunity Pvt. Ltd. provides each employee with a company-issued laptop, headset, and power adapter. Employees may request additional peripherals (external monitor, keyboard) through the IT Asset Request process. Peripherals are loaned assets and must be returned upon separation.
+
+5.3 Home Internet Reimbursement
+Employees on approved full remote arrangements are reimbursed INR 800 per month toward home broadband expenses upon submission of a bill. Employees in the standard hybrid model are not entitled to this reimbursement.
+
+6. AVAILABILITY AND COMMUNICATION EXPECTATIONS
+
+6.1 Core Hours
+Regardless of work location, all employees are expected to be available and responsive during core hours: 10:00 AM to 5:00 PM IST, Monday to Friday.
+
+6.2 Video and Audio Presence
+Employees attending internal meetings remotely are expected to be video-on unless bandwidth constraints prevent it. Muting when not speaking is standard etiquette. Background virtual or blurred is acceptable where physical background is not suitable.
+
+6.3 Status Visibility
+Remote employees must keep their status current on the company communication platform (currently Microsoft Teams). Indicating "Do Not Disturb" during focused work is acceptable; prolonged unresponsiveness during core hours is not.
+
+7. SECURITY REQUIREMENTS FOR REMOTE WORK
+
+7.1 VPN Mandatory
+All remote work must be conducted on the company's VPN. No work on company systems or data may be conducted over public Wi-Fi without VPN active. The Remote Access and VPN Policy governs technical requirements.
+
+7.2 Device Security
+Company laptops must have full disk encryption enabled (BitLocker on Windows). Employees must not use personal laptops for company work. Screens must be locked when stepping away, including at home.
+
+7.3 Physical Security
+Confidential documents must not be printed at home. Confidential video calls must not be taken in public spaces.
+
+8. PERFORMANCE AND DELIVERY IN REMOTE SETTINGS
+
+The company does not reduce performance expectations for remote work. Managers are responsible for setting clear deliverables and conducting regular check-ins regardless of work location. Remote employees are assessed on outputs and outcomes, not hours logged.
+
+9. TRAVEL TO OFFICE FOR KEY EVENTS
+
+All employees — including those on approved full remote arrangements — are expected to travel to their base office for: all-hands events, quarterly reviews, annual kick-off events, and any in-person client engagement where presence is requested. Travel costs are covered under the Travel and Expense Policy.
+
+10. POLICY REVIEW
+
+This policy is reviewed semi-annually. The hybrid model may be adjusted based on business requirements, facility capacity, and employee feedback surveys.
+
+For queries, contact: hr@aiopportunity.in

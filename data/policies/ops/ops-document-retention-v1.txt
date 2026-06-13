@@ -1,0 +1,113 @@
+---
+title: Document Management and Retention Policy
+category: OPS
+sensitivity: restricted
+audience: manager, Leadership
+doc_id: ops-document-retention-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+DOCUMENT MANAGEMENT AND RETENTION POLICY
+AIpportunity Pvt. Ltd.
+[RESTRICTED — FOR MANAGERS AND LEADERSHIP ONLY]
+
+1. PURPOSE AND SCOPE
+
+This policy establishes the framework for creating, naming, storing, managing, and disposing of documents and records at AIpportunity Pvt. Ltd. It applies to all business records — physical and electronic — created or received in the course of conducting company business. Effective document management protects the company from legal risk, enables operational efficiency, and ensures compliance with applicable laws and regulatory requirements. This policy is restricted to managers and Leadership who are responsible for ensuring their teams comply with these standards.
+
+2. DEFINITIONS
+
+Document: Any recorded information — in electronic or physical form — that describes, defines, specifies, or otherwise establishes a fact or obligation. Includes contracts, policies, reports, emails, presentations, project files, financial statements, and correspondence.
+
+Record: A document that provides evidence of a business activity, decision, or transaction and that must be retained for a defined period for legal, regulatory, or business purposes.
+
+Retention Period: The minimum period for which a record must be kept before it may be legitimately destroyed.
+
+Disposition: The lawful destruction or permanent deletion of records whose retention period has expired.
+
+3. DOCUMENT CLASSIFICATION
+
+All company documents must be classified according to the four-tier sensitivity model:
+
+Public: Information intended for general availability outside the company. No access restrictions. Examples: press releases, published case studies, public job postings.
+
+Internal: Information for employee use only. Not to be shared externally without approval. Examples: HR policies, operational procedures, meeting minutes, project plans.
+
+Restricted: Information with significant business sensitivity, shared only with specific roles or teams. Examples: financial forecasts, vendor contracts, compensation structures, client pricing. This policy document itself is Restricted.
+
+Confidential: Highest sensitivity. Shared only on a strict need-to-know basis. Unauthorised disclosure could cause significant harm to the company, its employees, or its clients. Examples: M&A activity, unpublished financial results, client source code, employee disciplinary records.
+
+Classification is assigned by the document creator at the time of creation. Reclassification requires approval from the document owner and the relevant manager.
+
+4. DOCUMENT NAMING AND VERSIONING STANDARDS
+
+4.1 Naming Convention
+All documents must follow the standard naming convention:
+[ProjectCode or DeptCode]-[DocumentType]-[ShortDescription]-v[Version].[extension]
+
+Examples:
+- HR-POL-LeavePolicy-v2.docx
+- FIN-RPT-Q1Revenue-v1.xlsx
+- IT-ADR-CloudMigration-v1.md
+
+4.2 Version Control
+Documents undergo revision must have version numbers incremented: v1.0 → v1.1 (minor revision) → v2.0 (major revision). The previous version must be archived, not overwritten. The current version is always the document in the designated active folder. Draft documents are prefixed DRAFT- until approved.
+
+5. DOCUMENT STORAGE STANDARDS
+
+5.1 Approved Storage Locations
+All company documents must be stored in approved, company-managed repositories:
+- Microsoft SharePoint: Primary storage for all business documents, project files, and team collaboration. Each department has a dedicated SharePoint site managed by the department head.
+- OneDrive for Business: For individual working documents that have not yet been filed to a team SharePoint. All final documents must be moved to SharePoint — OneDrive is not a permanent archive.
+- Email attachments: Email is not a document management system. Documents referenced in email must also be filed in SharePoint.
+
+5.2 Prohibited Storage Locations
+Documents must not be stored in: personal cloud accounts (Google Drive, Dropbox, personal OneDrive), USB drives or external hard disks without encryption, shared drives not managed by IT, or local laptop drives as the sole copy for documents with business value.
+
+5.3 Access Controls
+Managers are responsible for ensuring their department's SharePoint sites have correct access controls aligned to document sensitivity. Quarterly access reviews must be completed by the department manager and reported to IT.
+
+6. RETENTION SCHEDULE
+
+The following retention periods apply to the key document categories most relevant to managers and Leadership. Where a document is subject to active legal proceedings or regulatory inquiry, the applicable retention period is suspended until the matter is resolved — documents must not be destroyed while under legal hold.
+
+Financial records (invoices, purchase orders, expense reports): 7 years
+Contracts and agreements: 7 years after contract expiry
+Employee records (general HR files): 7 years after separation
+Employee records (disciplinary actions, termination): 10 years
+Project documentation (deliverables, sign-offs): 5 years after project closure
+Board and committee minutes: Permanent
+Regulatory filings and correspondence: 10 years
+Client correspondence and proposals: 5 years after relationship ends
+Intellectual property documentation: Permanent
+General operational correspondence: 3 years
+
+6.1 Retention Clock
+The retention period begins from the date of the document's last active use or the close of the relevant matter, not the date of creation.
+
+7. LEGAL HOLD
+
+When the company is involved in or anticipates litigation, regulatory investigation, or audit, a Legal Hold is issued by the General Counsel. A Legal Hold overrides all retention and disposition schedules. All employees in scope of the Legal Hold must immediately suspend any scheduled destruction of relevant documents. Failure to comply with a Legal Hold is a serious breach of policy and may constitute obstruction.
+
+Legal Holds are issued in writing to affected employees by HR or Legal. Employees must acknowledge receipt. IT places technical holds on relevant electronic storage where required.
+
+8. DISPOSITION PROCESS
+
+8.1 Routine Disposition
+When the retention period for a document category expires, the department manager reviews and approves disposition. Routine disposition of electronic documents is handled through a scheduled SharePoint archival and deletion workflow managed by IT. Physical documents are shredded by a certified document destruction vendor.
+
+8.2 Secure Destruction
+Physical documents classified Restricted or Confidential must be placed in designated secure shredding bins provided in all offices. Bins are collected and destroyed by the certified vendor monthly with a certificate of destruction. Documents must not be placed in general waste.
+
+Electronic deletion of Restricted and Confidential documents uses DoD-compliant deletion standards — a simple delete or empty-trash operation is insufficient.
+
+9. MANAGER RESPONSIBILITIES
+
+Managers are accountable for: ensuring their team stores documents in approved locations, conducting quarterly SharePoint access reviews, approving disposition of documents within their purview, communicating Legal Hold instructions to their teams, and reporting document management non-compliance to IT and HR.
+
+10. POLICY REVIEW
+
+This policy is reviewed annually by Operations, Legal, and Compliance. Retention periods are updated as regulatory requirements change.
+
+For queries, contact: operations@aiopportunity.in or legal@aiopportunity.in

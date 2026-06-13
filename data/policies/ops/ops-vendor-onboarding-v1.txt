@@ -1,0 +1,82 @@
+---
+title: Vendor Onboarding Policy
+category: OPS
+sensitivity: restricted
+audience: manager, Leadership
+doc_id: ops-vendor-onboarding-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+VENDOR ONBOARDING POLICY
+AIpportunity Pvt. Ltd.
+[RESTRICTED — FOR MANAGERS AND LEADERSHIP ONLY]
+
+1. PURPOSE AND SCOPE
+
+This policy governs the process for identifying, evaluating, approving, and onboarding new vendors and service providers at AIpportunity Pvt. Ltd. It applies to all departments that engage external vendors, subcontractors, or service providers. The policy ensures that vendor relationships are established on a sound commercial, compliance, and risk basis.
+
+A vendor is defined as any external entity that provides goods, services, software, or subcontracted labour to AIpportunity Pvt. Ltd. under a commercial agreement.
+
+2. VENDOR CATEGORIES
+
+Vendors are categorised by spend and risk for governance purposes:
+
+Category 1 — Strategic Vendors: Annual spend above INR 50 lakhs or critical to business continuity. Require full onboarding process and annual review.
+
+Category 2 — Preferred Vendors: Annual spend INR 5 lakhs to INR 50 lakhs. Require standard onboarding and biennial review.
+
+Category 3 — Transactional Vendors: Annual spend below INR 5 lakhs. Simplified onboarding with basic verification.
+
+2.1 Empanelled Vendor List
+Procurement maintains an Empanelled Vendor List for categories of frequently purchased goods and services. Departments must prefer empanelled vendors. Engaging a new vendor in a category already served by an empanelled vendor requires justification and Head of Procurement approval.
+
+3. VENDOR INITIATION
+
+Any department wishing to engage a new vendor must submit a New Vendor Requisition through the Procurement portal specifying: vendor name and contact details, nature of goods or services required, estimated annual spend, contract duration, business justification for engaging a new vendor, and whether the vendor will have access to company data or systems.
+
+Vendor requisitions for Category 1 and 2 vendors require Department Head sign-off. All vendor requisitions involving access to company data or IT systems require prior IT Security review.
+
+4. DUE DILIGENCE PROCESS
+
+4.1 Legal and Compliance Verification
+Procurement validates: valid Certificate of Incorporation or equivalent, GST registration, PAN, bank details with cancelled cheque, latest audited financial statements (for Category 1 vendors), applicable professional licences, and declarations of no blacklisting by government entities.
+
+4.2 Reference Checks
+Category 1 vendors require references from at least 2 current clients. Procurement contacts references independently — references provided by the vendor are treated as starting points only. Reference checks are documented in the vendor file.
+
+4.3 Financial Health Check
+For Category 1 vendors, Finance reviews the latest 2 years of audited accounts for: revenue trend, debt-to-equity ratio, going concern indicators, and litigation disclosures. Vendors with significant financial red flags are escalated to the CFO before proceeding.
+
+4.4 IT and Data Security Assessment
+Vendors who will process, store, or transmit company data, or who will have access to company systems, must complete AIpportunity Pvt. Ltd.'s Vendor IT Security Questionnaire. IT Security reviews and scores the responses. Vendors scoring below the threshold require a remediation plan before data access is granted.
+
+4.5 Anti-Bribery and Anti-Corruption Declaration
+All vendors must sign AIpportunity Pvt. Ltd.'s Anti-Bribery and Anti-Corruption (ABAC) declaration confirming compliance with applicable anti-corruption laws including the Prevention of Corruption Act 1988.
+
+5. VENDOR APPROVAL
+
+Following satisfactory due diligence, the vendor is presented for approval:
+- Category 3: Procurement Manager approval
+- Category 2: Head of Procurement approval
+- Category 1: Head of Procurement + CFO approval; strategic technology vendors additionally require CTO approval
+
+Approved vendors are added to the Empanelled Vendor List in the relevant category.
+
+6. CONTRACT AND COMMERCIAL TERMS
+
+All vendor engagements must be governed by a signed contract before work commences or purchase orders are raised. No "handshake" or email-only agreements are permitted. Contracts must include: scope of services, commercial terms, payment schedule, SLA and performance metrics, data protection obligations (DPA as an addendum if applicable), confidentiality obligations, termination provisions, and liability and indemnity clauses. Legal reviews all vendor contracts above INR 10 lakhs. Standard contract templates are available from Legal on the intranet.
+
+7. VENDOR MASTER CREATION
+
+Once approved and contracted, Finance creates the vendor master record in the ERP system (SAP S/4HANA). The vendor master is the authorised payment record. Payments may only be made to vendors in the vendor master. Any change to bank details requires re-verification through Finance and must be confirmed directly with the vendor over phone — not via email instructions alone, as this is a common fraud vector.
+
+8. ONGOING VENDOR PERFORMANCE MANAGEMENT
+
+Category 1 vendor performance is reviewed quarterly by the business owner and Procurement. Reviews cover: delivery against SLA, quality, responsiveness, commercial compliance, and relationship health. Underperforming vendors are issued a formal notice. Sustained underperformance triggers contract review or termination.
+
+9. VENDOR OFFBOARDING
+
+When a vendor relationship ends, Procurement ensures: all deliverables are received and accepted, all payments are settled, IT revokes all system access, data held by the vendor is returned or destroyed per contractual terms, and the vendor is deactivated in the ERP. Exit documentation is maintained for 7 years.
+
+For queries, contact: procurement@aiopportunity.in

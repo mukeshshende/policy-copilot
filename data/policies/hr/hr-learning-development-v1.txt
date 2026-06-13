@@ -1,0 +1,88 @@
+---
+title: Learning and Development Policy
+category: HR
+sensitivity: internal
+audience: all
+doc_id: hr-learning-development-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+LEARNING AND DEVELOPMENT POLICY
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE
+
+AIpportunity Pvt. Ltd. believes that continuous learning is essential to individual growth and organisational success. This Learning and Development (L&D) Policy establishes the company's commitment to developing employee capabilities and outlines the mechanisms through which learning opportunities are provided, accessed, and measured. The policy applies to all permanent and long-term contract employees across all locations.
+
+2. LEARNING PHILOSOPHY
+
+AIpportunity Pvt. Ltd. follows the 70-20-10 development model:
+- 70% of learning comes from on-the-job experience: stretch assignments, project responsibilities, and cross-functional work
+- 20% comes from learning from others: mentoring, coaching, peer learning, and feedback
+- 10% comes from formal learning: courses, certifications, workshops, and e-learning
+
+The L&D programme is designed to reinforce all three pillars while ensuring alignment with individual career goals and business priorities.
+
+3. ANNUAL LEARNING BUDGET
+
+3.1 Individual Budget
+Each confirmed employee is entitled to an annual learning budget of INR 25,000 per financial year. This budget may be used for external certifications, online courses, conference registrations, and technical books. Unused budget does not carry forward to the next financial year.
+
+3.2 Team and Project-Level Budget
+Department Heads may request additional team-level L&D budgets from HR and Finance for organisation-wide skill development priorities such as cloud platform certifications, AI/ML upskilling, or leadership development cohorts.
+
+3.3 Eligible Expenditure
+The individual learning budget covers: examination and certification fees, online learning platform subscriptions (Coursera, Udemy Business, LinkedIn Learning, Pluralsight), approved technical books, and conference registration fees. Travel and accommodation for outstation conferences are covered under the Travel and Expense Policy and do not consume the L&D budget.
+
+4. MANDATORY LEARNING
+
+4.1 Induction Learning
+All new employees must complete the following e-learning modules within the first 30 days of joining: Code of Conduct, POSH awareness, IT Security and Data Protection, and Business Continuity awareness. Completion is tracked through the Learning Management System (LMS) and is a condition of probation confirmation.
+
+4.2 Annual Mandatory Learning
+All employees must complete the following annual refreshers: Information Security awareness, POSH refresher, and applicable regulatory compliance training. Annual mandatory learning must be completed by 31 December each year. Non-completion may affect the annual performance rating.
+
+5. CERTIFICATIONS AND SPONSORSHIP
+
+5.1 Sponsored Certifications
+Where a certification is identified as critical to the employee's current or upcoming role, the company may provide full sponsorship including exam fees, preparatory courses, and study leave. Sponsored certifications are approved by the manager and HRBP on a case-by-case basis.
+
+5.2 Study Leave
+Employees appearing for a company-sponsored certification examination are entitled to up to 2 days of paid study leave per examination. Study leave must be applied through the HRMS.
+
+5.3 Clawback Clause
+Where the company fully sponsors a certification costing more than INR 30,000, the employee agrees to remain with AIpportunity Pvt. Ltd. for a minimum of 12 months post-certification. If the employee leaves before this period, a pro-rata clawback of the sponsorship amount applies.
+
+6. INTERNAL LEARNING PROGRAMMES
+
+6.1 AIpportunity Academy
+The internal learning platform — AIpportunity Academy — hosts curated learning paths for technical, functional, and leadership skills. Employees have unrestricted access to all Academy content. Learning paths aligned to current role requirements are visible on the employee's HRMS profile.
+
+6.2 Lunch and Learn Sessions
+Monthly Lunch and Learn sessions are organised by L&D on emerging topics including AI/ML tools, industry trends, and soft skills. Attendance is voluntary. Sessions are recorded and posted on the Academy for employees unable to attend live.
+
+6.3 Internal Mentoring Programme
+The structured mentoring programme pairs senior employees with mid-level employees for 6-month engagements. Applications for mentors and mentees open twice per year. Participation counts toward the 20% development pillar of the 70-20-10 model.
+
+7. CAREER DEVELOPMENT PLANNING
+
+7.1 Individual Development Plans (IDPs)
+Every employee must create an Individual Development Plan (IDP) in the HRMS by the end of April each year, aligned with the annual performance cycle. The IDP captures: current skill level, target skill level, specific learning actions, and success metrics. The manager reviews and approves the IDP.
+
+7.2 IDP Review
+IDPs are reviewed at the mid-year and year-end performance reviews. Learning progress is factored into the overall performance assessment. Employees who consistently meet IDP targets are recognised in the annual performance narrative.
+
+8. L&D APPROVAL PROCESS
+
+Learning requests requiring budget utilisation must be submitted through the HRMS Learning Request module. The manager approves within 5 working days. HR verifies budget availability. Purchases are made either through the company account or as reimbursements with receipts. External vendors must be on the approved vendor list or individually approved by Finance.
+
+9. MEASUREMENT AND EFFECTIVENESS
+
+L&D effectiveness is measured through: course completion rates tracked on the LMS, post-training assessments, skill progression tracked in the HRMS, employee feedback surveys, and certification pass rates. The L&D team publishes an annual L&D report to the Leadership team.
+
+10. POLICY REVIEW
+
+This policy is reviewed annually. The L&D budget and specific programmes are revisited each financial year in consultation with business leaders.
+
+For queries, contact: learning@aiopportunity.in

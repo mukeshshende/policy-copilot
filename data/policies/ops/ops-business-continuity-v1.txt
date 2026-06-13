@@ -1,0 +1,109 @@
+---
+title: Business Continuity Plan
+category: OPS
+sensitivity: confidential
+audience: Leadership
+doc_id: ops-business-continuity-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+BUSINESS CONTINUITY PLAN
+AIpportunity Pvt. Ltd.
+[CONFIDENTIAL — FOR LEADERSHIP ONLY]
+
+1. PURPOSE AND CLASSIFICATION
+
+This Business Continuity Plan (BCP) defines AIpportunity Pvt. Ltd.'s strategy and procedures for maintaining critical business operations during and after a significant disruption. This document is classified CONFIDENTIAL and is restricted to members of the Leadership team (Band 6 and above) and the Crisis Management Team (CMT). Disclosure of this plan's contents outside authorised personnel is a breach of company policy. Distributing this document to clients, vendors, or employees below the Leadership band requires written CMT approval.
+
+2. BUSINESS CONTINUITY POLICY STATEMENT
+
+AIpportunity Pvt. Ltd. is committed to maintaining operational resilience across all business functions. Our primary objectives in a disruption scenario are: safety of all employees and visitors, continuity of critical client service delivery, protection of company data and systems, compliance with contractual and regulatory obligations, and restoration of full operations within agreed timelines.
+
+3. CRITICAL BUSINESS FUNCTIONS
+
+Based on business impact analysis conducted in Q4 2024, the following functions are designated Critical (Tier 1 — must be recovered within 4 hours of declared disruption):
+- Client delivery operations and SLA-bound deliverables
+- IT infrastructure and network operations
+- Financial transactions and payroll processing
+- Executive and crisis communications
+
+Tier 2 functions (must be recovered within 24 hours):
+- HR operations and employee support
+- Sales and business development
+- Legal and compliance functions
+
+Tier 3 functions (must be recovered within 72 hours):
+- Internal training and L&D
+- Non-critical administrative functions
+- Facilities management (except safety-critical)
+
+4. CRISIS MANAGEMENT TEAM (CMT)
+
+The CMT is activated when a declared disruption affects business operations. Composition:
+- Incident Commander: CEO
+- Operations Lead: COO
+- Technology Lead: CTO
+- People Lead: CHRO
+- Communications Lead: Head of Communications
+- Finance Lead: CFO
+- Legal Lead: General Counsel
+
+CMT contact details and alternates are maintained in a secure, offline-accessible contact register held by the Office of the CEO. Contact register is updated quarterly.
+
+5. DISRUPTION SCENARIOS AND TRIGGERS
+
+This BCP covers the following primary disruption scenarios:
+
+5.1 Office Inaccessibility
+Causes: fire, flood, structural damage, civil unrest, government-ordered closure.
+Trigger: Facility declared inaccessible by Safety Officer or government authority.
+Response: Full activation of remote work protocol. All employees instructed to work from home. CMT convenes virtually within 2 hours of trigger.
+
+5.2 Cyber Incident or IT Outage
+Causes: ransomware, DDoS attack, critical infrastructure failure.
+Trigger: IT declares P1 incident affecting 20%+ of workforce or critical systems.
+Response: IT Crisis Protocol activated (see Incident Response Runbook). CMT loop established. Client communications issued within 4 hours if client operations impacted.
+
+5.3 Pandemic or Mass Health Event
+Causes: infectious disease outbreak, government-mandated quarantine.
+Trigger: Government advisory or more than 20% of workforce incapacitated.
+Response: Remote work mandate issued. Employee wellbeing check-ins daily. Critical delivery resources prioritised. HR coordinates leave extensions and welfare support.
+
+5.4 Key Person Dependency (Executive Absence)
+Trigger: Any C-suite executive unavailable for 5+ consecutive days.
+Response: Designated alternates in succession plan assume responsibilities. Succession plan reviewed annually and maintained by CHRO.
+
+6. ALTERNATE WORK LOCATIONS
+
+Primary alternate site for Hyderabad: Regus Business Centre, HITEC City (pre-contracted seats for 50 employees). Activation requires CMT instruction and a minimum 4-hour setup time.
+Primary alternate site for Bengaluru: Awfis Space, Koramangala (pre-contracted seats for 30 employees).
+Pune alternate site: WeWork Magarpatta City (pre-contracted seats for 20 employees).
+
+All alternate site contracts are maintained by Facilities and renewed annually. IT maintains pre-provisioned network equipment at each alternate site.
+
+7. DATA BACKUP AND RECOVERY
+
+All critical data is backed up daily using automated backup processes:
+- Backup storage: Azure India West (secondary), on-premises NAS at Hyderabad HQ (tertiary)
+- Recovery Point Objective (RPO): 4 hours for Tier 1 systems; 24 hours for Tier 2
+- Recovery Time Objective (RTO): 4 hours for Tier 1 systems; 24 hours for Tier 2
+
+IT conducts a full backup restoration test annually and reports results to the CMT. Backup integrity is verified weekly through automated checksums.
+
+8. COMMUNICATION PLAN
+
+8.1 Employee Communication
+Primary channel: Company-wide email and SMS to registered personal mobile numbers. Employee emergency contact numbers are collected annually and stored offline by HR.
+
+8.2 Client Communication
+Client Relationship Managers (CRMs) are responsible for communicating with their accounts within the timeline specified in the relevant SLA. Template communications for common scenarios are maintained by the Communications team and reviewed annually.
+
+8.3 Regulatory Notification
+Legal is responsible for assessing whether any disruption triggers regulatory notification obligations. Where required, notifications are issued within the legally mandated timeframe.
+
+9. TESTING AND MAINTENANCE
+
+The BCP is tested twice per year: a tabletop exercise in March and a partial live drill in September. Test findings are documented and remediation actions tracked to closure. The full plan is reviewed and updated annually by the CMT. All Leadership team members are briefed on the BCP at onboarding and upon any material update.
+
+For questions about this document, contact the Office of the CEO or the CHRO.

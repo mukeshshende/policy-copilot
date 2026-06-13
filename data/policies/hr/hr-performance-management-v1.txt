@@ -1,0 +1,100 @@
+---
+title: Performance Management Process
+category: HR
+sensitivity: restricted
+audience: manager, HR
+doc_id: hr-performance-management-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+PERFORMANCE MANAGEMENT PROCESS
+AIpportunity Pvt. Ltd.
+[RESTRICTED — FOR MANAGERS AND HR ONLY]
+
+1. PURPOSE
+
+This document describes the performance management process at AIpportunity Pvt. Ltd., including goal-setting, mid-year review, year-end appraisal, rating calibration, and performance improvement procedures. It is intended for use by people managers and HR Business Partners. The process is designed to be continuous, constructive, and development-focused, supporting both individual growth and organisational objectives.
+
+2. PERFORMANCE CYCLE
+
+The annual performance cycle runs from 1 April to 31 March (aligned with the financial year). Key milestones are:
+
+- April: Goal-setting and IDP finalisation
+- October: Mid-year review and IDP check-in
+- January–February: Year-end self-assessment and manager review
+- March: Calibration and rating finalisation
+- April (following year): Outcomes communication — increments, promotions, bonuses
+
+All interactions are documented in the HRMS Performance module.
+
+3. GOAL-SETTING
+
+3.1 Framework
+Goals are set using the OKR (Objectives and Key Results) framework at the company and department level, cascaded to individual contributors. Each employee should have 3–5 goals for the cycle. Goals must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.
+
+3.2 Goal Categories
+Goals are split between: business/functional goals (70% weightage) and behavioural/leadership goals (30% weightage). For individual contributors, all 100% may be functional. For managers, the behavioural component carries minimum 30% weight.
+
+3.3 Goal Approval
+The employee proposes goals, the manager reviews and amends as needed, and goals are locked by 30 April. Goals may be revised mid-year with mutual agreement and HRBP notification, particularly when business priorities shift significantly.
+
+4. MID-YEAR REVIEW
+
+The mid-year review in October is a structured conversation between the manager and employee. It covers: progress against goals, development plan execution, any goal amendments, and forward-looking actions for the second half. The manager documents the discussion in the HRMS. Employees also complete a mid-year self-assessment. The mid-year review does not carry a formal rating but informs the year-end narrative.
+
+5. YEAR-END APPRAISAL
+
+5.1 Self-Assessment
+In January, employees complete a self-assessment rating each goal and summarising key achievements, development progress, and feedback for their manager. Self-assessments are submitted by 31 January.
+
+5.2 Manager Assessment
+Managers complete the assessment by 20 February. Managers review the self-assessment, compare it with observed performance, gather 360-degree feedback where applicable, and assign preliminary ratings. The manager must provide written comments for each goal and an overall narrative. Scores must be supported by specific examples.
+
+5.3 Rating Scale
+Performance is rated on a 5-point scale:
+5 — Exceptional: Consistently exceeds all goals; significant business impact beyond role scope
+4 — Exceeds Expectations: Exceeds most goals; strong impact; recognised by peers and clients
+3 — Meets Expectations: Achieves all goals; delivers reliably; performs to role expectations
+2 — Partially Meets Expectations: Achieves some but not all goals; gaps requiring improvement
+1 — Does Not Meet Expectations: Falls significantly short of most goals; performance is unacceptable
+
+Rating 1 or 2 triggers the Performance Improvement Plan process (see Section 7).
+
+6. CALIBRATION
+
+6.1 Purpose
+Calibration sessions ensure ratings are applied fairly and consistently across teams and departments. They prevent rating inflation, bias, and inequity.
+
+6.2 Process
+Calibration panels are convened by the HRBP for each department and are attended by all people managers in the department and the HRBP. Each manager presents their team's rating distribution with supporting commentary. The panel discusses outliers — both high performers and underperformers. A normal distribution is targeted but not enforced.
+
+6.3 Forced Ranking Prohibition
+AIpportunity Pvt. Ltd. does not use a forced ranking or bell curve distribution. Ratings reflect actual performance. However, managers are expected to justify any distribution that deviates significantly from historical norms.
+
+6.4 Final Ratings
+Post-calibration, managers finalise ratings in the HRMS by 15 March. Employees are informed of their final rating by their manager before the outcomes communication.
+
+7. PERFORMANCE IMPROVEMENT PLAN (PIP)
+
+7.1 Trigger
+A PIP is initiated when an employee receives a rating of 1 or 2, or at any time during the year when sustained performance gaps are identified. PIPs are not punitive — they are structured support to enable improvement.
+
+7.2 PIP Design
+The manager, with HR support, designs a PIP that specifies: specific performance gaps, measurable improvement targets, support and resources provided, check-in schedule (typically fortnightly), and duration (typically 60–90 days).
+
+7.3 PIP Outcomes
+At the end of the PIP period, one of three outcomes applies: successful completion (performance improved to acceptable level — employee continues in role), extension (partial improvement — PIP extended for up to 30 additional days), or separation (no improvement — employment is terminated following applicable notice provisions and HR review).
+
+7.4 HR Oversight
+All PIPs must be initiated and monitored with the HR Business Partner's involvement. No PIP outcome involving termination proceeds without CHRO sign-off.
+
+8. PROMOTIONS
+
+Promotions are considered during the annual calibration cycle for employees rated 4 or 5 in the current cycle, have completed at least 18 months in grade, and have a demonstrated track record over multiple cycles. Promotion decisions require manager recommendation, HRBP support, and Department Head approval. Band 5 and above promotions require CHRO approval.
+
+9. MANAGER RESPONSIBILITIES
+
+Managers are accountable for: conducting timely reviews, providing regular feedback throughout the year (not only at formal checkpoints), documenting performance discussions in the HRMS, being consistent and unbiased in assessments, and completing calibration participation.
+
+For queries, contact: hr@aiopportunity.in

@@ -1,0 +1,92 @@
+---
+title: Compensation and Grade Structure
+category: HR
+sensitivity: confidential
+audience: HR, Leadership
+doc_id: hr-compensation-grades-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+COMPENSATION AND GRADE STRUCTURE
+AIpportunity Pvt. Ltd.
+[CONFIDENTIAL — FOR HR AND LEADERSHIP ONLY]
+
+1. PURPOSE AND CONFIDENTIALITY
+
+This document defines the compensation philosophy, grade structure, salary bands, and variable pay framework at AIpportunity Pvt. Ltd. It is classified as CONFIDENTIAL and is restricted to HR and Leadership. Disclosure of this document or its contents to employees outside these groups, or to external parties, is a breach of company policy and may result in disciplinary action.
+
+2. COMPENSATION PHILOSOPHY
+
+AIpportunity Pvt. Ltd. targets compensation at the 60th percentile of the relevant technology industry market in India, as benchmarked annually against a peer group of comparable mid-size IT services companies. The compensation structure rewards sustained performance, scope of responsibility, and market-aligned skills. Compensation decisions consider: market reference, internal equity, individual performance ratings, and business affordability.
+
+3. GRADE STRUCTURE
+
+AIpportunity Pvt. Ltd. operates a 7-band grade structure:
+
+Band 1 — Associate / Fresher (0–2 years experience)
+Band 2 — Senior Associate (2–4 years experience)
+Band 3 — Specialist / Lead (4–7 years experience)
+Band 4 — Senior Specialist / Team Lead (7–10 years experience)
+Band 5 — Manager / Principal (10–15 years experience)
+Band 6 — Senior Manager / Director (15+ years experience)
+Band 7 — Vice President / CXO
+
+Entry into a band is based on a combination of years of experience, demonstrated competencies, and role scope. Promotions between bands require a formal promotion process as described in the Performance Management Policy.
+
+4. SALARY BANDS
+
+Salary bands represent the total fixed compensation (CTC) range for each band. Bands are reviewed annually against market data. Current bands (FY 2025-26) are as follows:
+
+Band 1: INR 4.0 lakhs — INR 7.0 lakhs per annum
+Band 2: INR 6.5 lakhs — INR 11.0 lakhs per annum
+Band 3: INR 10.0 lakhs — INR 18.0 lakhs per annum
+Band 4: INR 16.0 lakhs — INR 28.0 lakhs per annum
+Band 5: INR 26.0 lakhs — INR 45.0 lakhs per annum
+Band 6: INR 42.0 lakhs — INR 75.0 lakhs per annum
+Band 7: INR 70.0 lakhs — above (individually negotiated)
+
+Employees are positioned within their band based on performance history, time in role, and internal equity. No employee shall be below the band minimum or above the band maximum without CHRO approval. Employees at or above the 90th percentile of their band are not eligible for standard annual increments; their compensation is addressed through variable pay and project-specific incentives.
+
+5. FIXED PAY COMPONENTS
+
+The total fixed cost to company (CTC) comprises:
+- Basic Salary: 40–50% of CTC. Forms the basis for PF calculation and gratuity.
+- House Rent Allowance (HRA): 40–50% of Basic Salary. Tax-exempt subject to statutory conditions.
+- Special Allowance: The remaining CTC balance after all components. Fully taxable.
+- Provident Fund (Employer): 12% of Basic Salary per month, subject to statutory ceiling.
+- Gratuity Provision: Provisioned at 4.81% of Basic Salary; payable after 5 years of service.
+
+All components are structured to ensure compliance with applicable tax laws and labour statutes including the Payment of Gratuity Act 1972 and the Employees' Provident Funds and Miscellaneous Provisions Act 1952.
+
+6. VARIABLE PAY
+
+6.1 Annual Performance Bonus
+Employees at Band 1 to Band 4 are eligible for an annual performance bonus ranging from 8% to 15% of CTC based on the band and performance rating. The bonus is paid in April following the year-end appraisal. Employees must be on payroll on the date of disbursement to receive the bonus. Employees who resign before disbursement forfeit the bonus entitlement.
+
+6.2 Band-Level Variable Targets
+Band 1–2: 8% of CTC target variable
+Band 3–4: 12% of CTC target variable
+Band 5–6: 20% of CTC target variable (includes individual and company performance component)
+Band 7: 30–40% of CTC (individually structured)
+
+6.3 Variable Pay Modifiers
+The actual payout is calculated as: Target Variable × Performance Multiplier × Company Performance Factor. Performance multipliers: Rating 5 = 1.5x; Rating 4 = 1.2x; Rating 3 = 1.0x; Rating 2 = 0.5x; Rating 1 = 0x. The Company Performance Factor is applied uniformly and is approved by the Board annually.
+
+7. ANNUAL INCREMENT PROCESS
+
+Annual increments are processed in April. Eligibility requires the employee to have completed 6 months of service by 31 March and to hold a performance rating of 3 or above. Increment ranges by rating: Rating 5 = 15–20%; Rating 4 = 10–15%; Rating 3 = 6–9%; Rating 2 = 0–4%; Rating 1 = 0%. The increment budget is approved by the Board and allocated by the CHRO to department heads for distribution within approved ranges.
+
+8. SPECIAL ALLOWANCES AND RETENTION ARRANGEMENTS
+
+8.1 Critical Skill Premium
+Employees with skills in critical shortage (identified annually by the Technology Council) may receive a Critical Skill Premium of up to 10% of CTC in addition to the standard salary band. This is reviewed annually and may be discontinued if skills become more widely available.
+
+8.2 Retention Bonus
+Retention bonuses may be offered to critical employees at risk of attrition. They are paid in tranches over a defined retention period. Any tranche not yet paid is forfeited upon resignation. Retention bonuses require CHRO and CFO approval.
+
+9. SALARY REVIEW GOVERNANCE
+
+All salary offers, revisions, and increments must be processed through the HRMS Compensation module. Verbal salary commitments made outside this process are not binding. All compensation decisions must be within band ranges or accompanied by an approved band exception form signed by CHRO and CFO.
+
+For queries, contact: hr@aiopportunity.in (HR and Leadership only)

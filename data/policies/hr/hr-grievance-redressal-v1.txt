@@ -1,0 +1,86 @@
+---
+title: Grievance Redressal Policy
+category: HR
+sensitivity: internal
+audience: all
+doc_id: hr-grievance-redressal-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+GRIEVANCE REDRESSAL POLICY
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE AND SCOPE
+
+AIpportunity Pvt. Ltd. recognises that employees may from time to time experience concerns about their working conditions, treatment by colleagues or management, application of company policies, or other work-related matters. This Grievance Redressal Policy provides a fair, transparent, and timely mechanism for employees to raise such concerns and have them addressed. The policy applies to all permanent, contract, and probationary employees at all AIpportunity Pvt. Ltd. locations.
+
+This policy does not apply to complaints relating to sexual harassment, which are governed exclusively by the POSH Policy, or to matters already subject to a legal proceeding.
+
+2. DEFINITION OF A GRIEVANCE
+
+A grievance is any concern, complaint, or dissatisfaction raised by an employee about a work-related matter. Grievances may relate to:
+- Application or interpretation of HR policies
+- Working conditions, facilities, or work environment
+- Acts of discrimination, bullying, or victimisation (non-sexual)
+- Decisions relating to salary, promotion, or role changes
+- Interpersonal conflict with a colleague or manager
+- Workload, task assignment, or performance evaluation concerns
+
+Minor day-to-day disputes or misunderstandings that can be resolved informally between the parties are not formal grievances but may be escalated if informal resolution fails.
+
+3. GUIDING PRINCIPLES
+
+3.1 Confidentiality
+Grievances and their resolution will be handled with strict confidentiality. Information will be shared only with those who need to know for the purposes of resolution. Breach of confidentiality is a disciplinary offence.
+
+3.2 No Retaliation
+Employees who raise grievances in good faith are protected from retaliation. Any act of retaliation against a grievant will itself be treated as a serious disciplinary matter.
+
+3.3 Timeliness
+AIpportunity Pvt. Ltd. is committed to resolving grievances within the timelines defined in this policy. Delays on account of unreachable parties will be documented.
+
+3.4 Natural Justice
+Respondents will be informed of the grievance against them and given a fair opportunity to present their perspective before any decision is made.
+
+4. GRIEVANCE PROCEDURE
+
+4.1 Stage 1 — Informal Resolution (Days 1–5)
+The employee is encouraged to first attempt informal resolution by discussing the concern directly with the person involved or with their immediate manager. Many concerns can be resolved at this stage through open communication. The employee may seek informal guidance from the HR Business Partner before attempting informal resolution.
+
+4.2 Stage 2 — Formal Grievance to Immediate Manager (Days 1–10)
+If informal resolution fails or is not appropriate, the employee submits a written grievance to their immediate manager using the Grievance Form available on the HRMS. The manager must acknowledge receipt within 2 working days and attempt resolution within 7 working days. The resolution is documented and communicated to the employee in writing.
+
+4.3 Stage 3 — Escalation to HR Business Partner (Days 11–20)
+If the employee is not satisfied with the outcome from Stage 2, or if the grievance involves the immediate manager, the employee escalates to the HR Business Partner. The HRBP will investigate the grievance, meet with both parties, and issue a written resolution within 10 working days of receiving the escalation.
+
+4.4 Stage 4 — Escalation to CHRO (Days 21–35)
+If the employee remains dissatisfied, they may escalate to the Chief Human Resources Officer (CHRO) within 5 working days of receiving the HRBP's decision. The CHRO or a nominated senior HR representative will conduct a final review. The CHRO's decision is final and will be communicated in writing within 15 working days.
+
+4.5 Group Grievances
+Where 10 or more employees share a common grievance, they may designate up to 3 representatives to submit and pursue a group grievance. The same procedure applies, with timelines adjusted to allow for the complexity of group submissions.
+
+5. INVESTIGATION PROCESS
+
+5.1 Conducting Investigations
+The investigating authority (manager, HRBP, or CHRO as applicable) will: review the written grievance, collect relevant documentary evidence, interview the grievant, interview the respondent, interview any witnesses, and consider the facts against applicable policies and principles of fairness.
+
+5.2 Documentation
+All meetings, evidence, and decisions are documented and stored securely in the employee's HR record. Grievance records are retained for 5 years.
+
+5.3 External Assistance
+In complex cases, AIpportunity Pvt. Ltd. may engage an external neutral investigator, particularly where internal investigators may have a conflict of interest.
+
+6. REMEDIES AVAILABLE
+
+Depending on findings, remedies may include: formal apology, policy clarification, policy amendment, change in reporting relationship, role or location transfer, training for the respondent, disciplinary action against the respondent, or financial remedies where appropriate. Where the grievance is found to be unsubstantiated, no adverse action will be taken against the grievant unless the grievance was found to be malicious.
+
+7. ANONYMOUS COMPLAINTS
+
+Employees may raise concerns anonymously through the whistleblower portal at ethics.aiopportunity.in. Anonymous complaints are investigated where sufficient factual information is provided. The company cannot guarantee complete anonymity where the nature of the facts makes identification likely.
+
+8. POLICY REVIEW
+
+This policy is reviewed annually by HR in consultation with Legal. Updates are communicated via the HRMS and company intranet.
+
+For queries, contact: hr@aiopportunity.in

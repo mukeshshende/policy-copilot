@@ -1,0 +1,92 @@
+---
+title: Health, Safety and Environment Policy
+category: OPS
+sensitivity: internal
+audience: all
+doc_id: ops-health-safety-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+HEALTH, SAFETY AND ENVIRONMENT (HSE) POLICY
+AIpportunity Pvt. Ltd.
+
+1. STATEMENT OF COMMITMENT
+
+AIpportunity Pvt. Ltd. is committed to providing a safe, healthy, and environmentally responsible workplace for all employees, contractors, visitors, and members of the community affected by our operations. The safety of our people is non-negotiable. We believe that all work-related injuries and illnesses are preventable and that a safe workplace and productive business are mutually reinforcing. This policy applies to all AIpportunity Pvt. Ltd. offices in Hyderabad, Bengaluru, and Pune.
+
+2. LEGAL FRAMEWORK
+
+This policy is framed in compliance with: the Factories Act 1948 (for applicable premises), the Occupational Safety, Health and Working Conditions Code 2020, the Environment Protection Act 1986, the Hazardous and Other Wastes (Management and Transboundary Movement) Rules 2016, and applicable state-level building and fire safety codes.
+
+3. ROLES AND RESPONSIBILITIES
+
+3.1 Management
+Senior management is accountable for: allocating resources for safety programmes, ensuring legal compliance, reviewing HSE performance metrics quarterly, and demonstrating visible safety leadership.
+
+3.2 Safety Officer
+Each office location has a designated Safety Officer responsible for: conducting risk assessments, coordinating safety drills, maintaining safety equipment, investigating incidents, and maintaining compliance records. The Safety Officer reports to the Facilities Manager with a dotted line to the CHRO.
+
+3.3 All Employees
+Every employee is responsible for: following safety procedures, using provided safety equipment, reporting hazards and near-misses immediately, participating in safety training, and not endangering themselves or others through unsafe acts.
+
+4. OFFICE SAFETY STANDARDS
+
+4.1 Ergonomics
+Workstations must be ergonomically set up to prevent musculoskeletal disorders. Employees are entitled to an ergonomic assessment upon request. The standard workstation setup includes: adjustable chair with lumbar support, monitor at eye level, keyboard and mouse positioned to keep wrists neutral. Employees experiencing discomfort should contact Facilities immediately.
+
+4.2 Electrical Safety
+Employees must not tamper with electrical fixtures, overload extension cords, or use personal electrical appliances (heaters, kettles) without Facilities approval. All electrical faults must be reported to Facilities immediately. Use of unauthorised chargers on company equipment voids the warranty and may create fire risks.
+
+4.3 Walkways and Emergency Exits
+Walkways, corridors, and emergency exits must be kept clear at all times. Storing materials, bags, or equipment in aisles or exit routes is prohibited. Emergency exit signage must be visible at all times.
+
+4.4 Housekeeping
+Clean desk practices must be followed at all times. Food and beverages are permitted at workstations only in closed containers. Wet floors must be reported to Facilities immediately and warning signs placed.
+
+5. EMERGENCY PREPAREDNESS
+
+5.1 Fire Safety
+Each office is equipped with fire extinguishers, smoke detectors, sprinkler systems, and clearly marked fire exits. Fire extinguishers are inspected monthly. The Safety Officer conducts a fire drill at least twice per year. Employees must know the location of the nearest fire exit and muster point for their floor.
+
+5.2 Emergency Evacuation
+In the event of a fire alarm or evacuation instruction:
+- Stop all work and calmly proceed to the nearest emergency exit
+- Do not use lifts
+- Assemble at the designated muster point
+- Do not re-enter the building until all-clear is given by the Safety Officer or emergency services
+
+5.3 Medical Emergency
+Each office has a stocked first aid kit maintained by Facilities. Trained first aiders are present on each floor during working hours — their names and desk locations are posted on the safety noticeboard and on the intranet. For serious medical emergencies, call 108 (emergency ambulance) and notify the Safety Officer immediately.
+
+6. INCIDENT REPORTING
+
+6.1 Mandatory Reporting
+All work-related injuries, illnesses, near-misses, and safety observations must be reported to the Safety Officer within 24 hours using the Incident Report Form on the intranet. Near-miss reporting is explicitly encouraged — it is a leading indicator of risk, not a sign of failure.
+
+6.2 Investigation
+The Safety Officer investigates all reported incidents within 5 working days. Investigations identify root cause and recommend corrective and preventive actions. Findings and corrective actions are tracked to closure and shared with the HSE Committee.
+
+6.3 Serious Incidents
+Serious incidents resulting in hospitalisation, significant injury, or significant property damage are escalated to senior management within 1 hour and reported to the relevant government authority as required by law.
+
+7. ENVIRONMENTAL RESPONSIBILITY
+
+7.1 Waste Management
+AIpportunity Pvt. Ltd. segregates waste at source: dry recyclable waste (paper, plastic, metal), wet waste (food), and e-waste. Dedicated disposal bins are provided throughout the office. E-waste is disposed of through authorised e-waste handlers.
+
+7.2 Energy Conservation
+Employees are expected to switch off lights, air conditioning, and equipment when not in use. Motion-sensor lighting is installed in meeting rooms. Server room energy efficiency is monitored monthly by IT.
+
+7.3 Paper Reduction
+Default printing settings are duplex and black-and-white. Paper usage is tracked quarterly. A paperless initiative targets 20% reduction in paper consumption annually.
+
+8. HEALTH AND HYGIENE
+
+Pantry and restrooms are cleaned and sanitised twice daily. Hand sanitisers are placed at all entry points and common areas. Air quality in all offices is monitored monthly. During disease outbreaks or health advisories, the Facilities team implements enhanced protocols as directed by public health authorities.
+
+9. TRAINING
+
+All employees receive HSE orientation during induction. Refresher training is mandatory annually and covers: fire safety, ergonomics, and emergency procedures. Safety Officer certifications are renewed as required by applicable law.
+
+For reporting emergencies or incidents, contact the Safety Officer at safety@aiopportunity.in or call the Facilities helpdesk.

@@ -1,0 +1,91 @@
+---
+title: Employee Wellness Policy
+category: HR
+sensitivity: internal
+audience: all
+doc_id: hr-employee-wellness-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+EMPLOYEE WELLNESS POLICY
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE
+
+AIpportunity Pvt. Ltd. is committed to the physical, mental, and emotional wellbeing of its employees. A healthy and supported workforce directly enables innovation, productivity, and retention. This Employee Wellness Policy outlines the programmes, benefits, and entitlements available to all employees at AIpportunity Pvt. Ltd. across our offices in Hyderabad, Bengaluru, and Pune. It applies to all permanent employees and eligible contract staff as specified in individual benefit schedules.
+
+2. HEALTH INSURANCE
+
+2.1 Group Medical Insurance
+AIpportunity Pvt. Ltd. provides a Group Medical Insurance (GMI) plan covering the employee, spouse, two dependent children, and dependent parents. The sum insured is INR 5 lakhs per family per year. Employees at Band 5 and above are covered for INR 10 lakhs. The policy is a floater plan — the full sum insured is available to any covered family member.
+
+2.2 Pre-existing Conditions
+Pre-existing conditions are covered from Day 1 of the policy, subject to the insurer's terms and conditions. Employees must submit accurate health declarations during enrolment. Misrepresentation may result in claim rejection and disciplinary action.
+
+2.3 Top-up Option
+Employees may purchase additional top-up coverage at subsidised group rates. Premiums for top-up coverage are deducted from salary. Top-up enrolment is available during the annual enrolment window in April or within 30 days of joining.
+
+2.4 Claim Process
+Claims are submitted through the insurer's TPA portal or app. Cashless hospitalisation is available at all network hospitals. Reimbursement claims must be submitted within 30 days of discharge. HR Operations supports employees with claim queries at benefits@aiopportunity.in.
+
+3. MENTAL HEALTH AND EMPLOYEE ASSISTANCE PROGRAMME (EAP)
+
+3.1 EAP Services
+AIpportunity Pvt. Ltd. provides access to a confidential Employee Assistance Programme (EAP) delivered by an external provider. The EAP offers:
+- Up to 6 free counselling sessions per year per employee (telephonic, video, or in-person)
+- 24x7 emotional support helpline
+- Financial counselling and legal advisory sessions
+- Nutrition and wellness coaching
+
+All EAP interactions are strictly confidential. No information about utilisation or content of sessions is shared with AIpportunity Pvt. Ltd. management. The EAP provider does not disclose individual usage unless required by law.
+
+3.2 Mental Health Leave
+Employees may avail up to 3 days of paid mental health leave per year. These days are separate from sick leave and do not require a medical certificate. The leave must be applied in the HRMS under the "Wellness Leave" category. Managers are not entitled to question the nature of mental health leave.
+
+3.3 Manager Training
+All people managers complete a Mental Health First Aid awareness module as part of their manager readiness training. Managers are trained to recognise signs of distress and to make appropriate referrals to the EAP without breaching confidentiality.
+
+4. FITNESS AND PHYSICAL HEALTH
+
+4.1 Gym and Fitness Reimbursement
+Employees are entitled to a fitness reimbursement of up to INR 3,000 per year for gym memberships, fitness app subscriptions, or sports club fees. Claims are submitted through the HRMS with receipts. The benefit is non-transferable and cannot be accumulated across years.
+
+4.2 Office Wellness Facilities
+All AIpportunity Pvt. Ltd. offices provide ergonomically designed workstations, standing desk options, and quiet wellness rooms. Hyderabad and Bengaluru offices have tie-ups with in-building gym facilities. Employees may use these facilities during non-core working hours.
+
+4.3 Wellness Challenges
+HR organises quarterly wellness challenges including step-count competitions, mindfulness weeks, and nutrition awareness campaigns. Participation is voluntary. Team-level achievements are recognised in the company newsletter.
+
+5. PARENTAL AND FAMILY SUPPORT
+
+5.1 Parental Support Room
+All AIpportunity Pvt. Ltd. offices provide a private, hygienic parental support room for nursing mothers, equipped with a refrigerator and reclining chair. The room is bookable through the facilities portal.
+
+5.2 Creche Benefit
+Employees with children under 5 years of age are entitled to a creche allowance of INR 2,500 per month, disbursed as a tax-exempt component of salary where applicable under applicable tax laws.
+
+5.3 Adoption Support
+Employees who are in the process of legal adoption are entitled to up to 3 days of paid leave to attend court hearings or government appointments. Documentation of the proceeding must be submitted to HR.
+
+6. ERGONOMICS AND WORK ENVIRONMENT
+
+6.1 Workstation Assessment
+Employees experiencing musculoskeletal discomfort may request a workstation ergonomic assessment through the Facilities team. Recommended adjustments including footrests, wrist rests, or monitor stands are provided at company cost.
+
+6.2 Vision Care
+Employees are reimbursed up to INR 1,500 per year for prescription eyewear directly related to screen use, upon submission of optometrist prescription and receipt.
+
+7. WORK-LIFE BALANCE
+
+7.1 Right to Disconnect
+AIpportunity Pvt. Ltd. recognises that employees have the right to disconnect from work communications outside of working hours. Managers must not expect or require responses to non-emergency communications after 8:00 PM or on weekends. This is a cultural commitment backed by management accountability.
+
+7.2 Wellness Days
+In addition to standard leave entitlements, the company designates 2 company-wide wellness days per year — unscheduled paid days off announced at short notice to give the entire organisation a collective break.
+
+8. POLICY REVIEW
+
+The Employee Wellness Policy is reviewed annually by HR in consultation with the Employee Welfare Committee. Benefit limits are reviewed each financial year based on utilisation data and market benchmarking.
+
+For queries, contact: benefits@aiopportunity.in

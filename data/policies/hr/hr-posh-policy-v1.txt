@@ -1,0 +1,83 @@
+---
+title: Anti-Harassment and POSH Policy
+category: HR
+sensitivity: internal
+audience: all
+doc_id: hr-posh-policy-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+PREVENTION OF SEXUAL HARASSMENT (POSH) AND ANTI-HARASSMENT POLICY
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE AND LEGAL BASIS
+
+AIpportunity Pvt. Ltd. is committed to providing a safe, respectful, and dignified working environment for all employees. This policy is framed in compliance with the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH Act) and the rules framed thereunder. It applies to all employees, contract staff, interns, visitors, and clients at all AIpportunity Pvt. Ltd. premises in Hyderabad, Bengaluru, and Pune, and extends to work-related events, client sites, and online work environments.
+
+2. DEFINITION OF SEXUAL HARASSMENT
+
+Sexual harassment includes any unwelcome act or behaviour, whether direct or indirect, in any of the following forms:
+
+(a) Physical contact and advances of a sexual nature
+(b) Demand or request for sexual favours, whether expressed or implied
+(c) Making sexually coloured remarks in person, in writing, or through electronic media
+(d) Showing pornography or sexually explicit material
+(e) Any other unwelcome physical, verbal, or non-verbal conduct of a sexual nature
+
+Circumstances that may amount to sexual harassment include: implied or explicit promise of preferential treatment in exchange for sexual favours; implied or explicit threat of detrimental treatment upon refusal; interference with work performance creating an intimidating, hostile, or offensive environment; and humiliating treatment likely to affect health or safety.
+
+3. INTERNAL COMPLAINTS COMMITTEE (ICC)
+
+3.1 Composition
+AIpportunity Pvt. Ltd. has constituted an Internal Complaints Committee (ICC) at each office location as required under the POSH Act. The ICC at each location comprises:
+- Presiding Officer: A senior woman employee
+- Two internal members nominated by management, at least one of whom is committed to the cause of women or has experience in social work
+- One external member from a non-governmental organisation or legal background
+
+3.2 Term and Reconstitution
+ICC members serve a term of three years. The ICC shall be reconstituted upon expiry of term or if a vacancy arises. Current ICC member details are available on the company intranet and from the HR Business Partner.
+
+4. COMPLAINT PROCEDURE
+
+4.1 Filing a Complaint
+Any aggrieved employee who experiences sexual harassment may file a written complaint with the ICC or Presiding Officer within 90 days of the incident. In exceptional circumstances, the ICC may condone delay. The complaint must state the facts of the incident, date and location, name of the respondent, and any supporting evidence or witnesses.
+
+4.2 Conciliation
+Before initiating a formal inquiry, the complainant may request conciliation through the ICC. The ICC may facilitate settlement between the parties. Monetary settlement shall not be the basis of conciliation. Where conciliation is agreed, no further inquiry is conducted; however, if the respondent fails to comply with agreed terms, the ICC shall conduct an inquiry.
+
+4.3 Formal Inquiry
+If conciliation is not opted for or fails, the ICC conducts a formal inquiry. The inquiry must be completed within 60 days from the date of receiving the complaint. Both parties are given a reasonable opportunity to present their case and evidence. The inquiry is conducted in a time-bound, confidential manner. Both parties are entitled to be assisted by a colleague during proceedings.
+
+4.4 Interim Relief
+During the pendency of inquiry, the complainant may request the ICC to recommend: transfer of the respondent or complainant to another workplace; grant of leave up to 3 months in addition to normal leave entitlement; restraining the respondent from reporting or supervising the work of the complainant.
+
+5. INQUIRY FINDINGS AND RECOMMENDATIONS
+
+5.1 Finding of Guilt
+If the ICC finds the allegation substantiated, it shall recommend to management: written apology; reprimand or censure; warning; transfer; withholding of promotion or pay raise; termination of employment; deduction from salary for compensation to the complainant; in cases involving clients or third parties, termination of the business relationship.
+
+5.2 Finding of No Guilt
+If the ICC finds the allegation malicious or false — meaning filed with the intent to harm the respondent — it may recommend action against the complainant. A complaint that cannot be proven does not in itself make it malicious.
+
+5.3 Management Action
+Management must act on the ICC's recommendations within 60 days. Failure to act constitutes non-compliance with the POSH Act.
+
+6. CONFIDENTIALITY
+
+All parties, witnesses, and ICC members are bound by confidentiality. No information relating to the identity of the complainant or respondent, contents of the complaint, inquiry proceedings, recommendations, or action taken shall be disclosed in any manner. Breach of confidentiality is a separate disciplinary offence.
+
+7. AWARENESS AND TRAINING
+
+AIpportunity Pvt. Ltd. shall conduct POSH awareness sessions at least once per year for all employees. New joiners receive POSH orientation as part of induction. ICC members receive specialised training on inquiry procedures and trauma-informed interviewing.
+
+8. THIRD-PARTY AND CLIENT INTERACTION
+
+Where an employee experiences harassment from a client, vendor, or visitor, AIpportunity Pvt. Ltd. shall take all reasonable steps to provide assistance. The employee should report the incident to the ICC or HR immediately. The company will take appropriate action including raising the matter with the client or vendor organisation.
+
+9. CONTACT
+
+ICC Presiding Officer (Hyderabad): posh-hyd@aiopportunity.in
+ICC Presiding Officer (Bengaluru): posh-blr@aiopportunity.in
+ICC Presiding Officer (Pune): posh-pun@aiopportunity.in
+HR Business Partner: hr@aiopportunity.in

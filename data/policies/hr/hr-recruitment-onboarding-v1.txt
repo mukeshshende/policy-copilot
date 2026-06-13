@@ -1,0 +1,82 @@
+---
+title: Recruitment and Onboarding Policy
+category: HR
+sensitivity: internal
+audience: all
+doc_id: hr-recruitment-onboarding-v1
+version: 1.0
+effective_date: 2025-01-01
+---
+
+RECRUITMENT AND ONBOARDING POLICY
+AIpportunity Pvt. Ltd.
+
+1. PURPOSE
+
+This policy defines the standards and procedures for recruiting, selecting, and onboarding employees at AIpportunity Pvt. Ltd. It ensures that hiring is conducted in a fair, consistent, and legally compliant manner, and that new employees receive the support needed to become productive members of the organisation. The policy applies to all hiring managers, HR teams, and candidates across our offices in Hyderabad, Bengaluru, and Pune.
+
+2. EQUAL OPPORTUNITY IN RECRUITMENT
+
+AIpportunity Pvt. Ltd. is an equal opportunity employer. All recruitment decisions are made solely on the basis of merit, skills, qualifications, and business needs. Discrimination based on gender, age, religion, caste, disability, sexual orientation, marital status, or national origin is prohibited at every stage of the recruitment process. Job descriptions, interview questions, and selection criteria must be free of bias and validated by HR before use.
+
+3. POSITION REQUISITION
+
+3.1 Raising a Requisition
+All hiring must be initiated through a Position Requisition Form (PRF) submitted in the HRMS. The PRF must specify: position title, business justification, reporting structure, required qualifications and experience, approved headcount code, and proposed salary band. PRFs for permanent positions require approval from the Department Head and Finance. Contract positions up to 6 months require Department Head approval only.
+
+3.2 Job Description Standards
+HR will work with the hiring manager to create or update the job description before sourcing begins. Job descriptions must list essential versus desirable requirements separately. Requirements that cannot be justified by the nature of the role (e.g., physical requirements unrelated to job function) are not permitted.
+
+4. SOURCING AND SHORTLISTING
+
+4.1 Sourcing Channels
+AIpportunity Pvt. Ltd. uses the following sourcing channels in order of preference: internal job postings (open for 5 working days before external posting), employee referrals (eligible for referral bonus as per the Referral Policy), direct applications via careers.aiopportunity.in, and empanelled recruitment agencies. Agency engagement requires prior HR approval and must use the current empanelled vendor list.
+
+4.2 Application Screening
+HR conducts initial screening against minimum qualification criteria. Screening notes must be documented in the ATS. Candidates not meeting minimum criteria receive a rejection notification within 10 working days of application.
+
+4.3 Interview Panel
+Every interview panel must include at least one trained interviewer. HR participates in final round interviews for all positions at Band 4 and above. Panels must include at least one woman member for senior positions. All panel members must complete the pre-interview preparation checklist in the ATS before the interview.
+
+5. INTERVIEW AND SELECTION PROCESS
+
+5.1 Interview Stages
+Standard interview stages are: HR screening call (30 minutes), technical/functional round with hiring manager, and a final round with the Department Head for senior positions. Additional rounds may be included for specialised roles. The total number of rounds shall not exceed four. Candidates must be informed of the number of rounds at the time of invitation.
+
+5.2 Assessment Methods
+Technical assessments, case studies, or work samples may be used where relevant. Assessments must be standardised and applied consistently to all candidates for the same role. Psychometric testing requires HR approval and must be conducted through an approved vendor.
+
+5.3 Selection Decision
+The hiring manager is responsible for the selection decision. Selection must be based on competency ratings documented in the ATS. Verbal offers are not authorised — all offers must go through HR. Where multiple qualified candidates are available, the decision rationale must be documented.
+
+6. OFFER AND PRE-EMPLOYMENT VERIFICATION
+
+6.1 Offer of Employment
+HR issues the formal offer letter through the HRMS upon receiving selection confirmation and compensation approval. Offer letters for positions at Band 5 and above require CHRO approval. The candidate must accept the offer digitally within 5 working days.
+
+6.2 Background Verification
+All offers are subject to successful pre-employment background verification covering: identity, education, previous employment (last 7 years), address, and criminal record. Background verification is conducted by an empanelled agency. Employment commences only after clearance. Where verification reveals discrepancies, HR and Legal jointly determine the outcome.
+
+7. ONBOARDING
+
+7.1 Pre-Joining
+HR sends a pre-joining kit at least 7 days before the joining date covering: joining formalities checklist, mandatory document list, IT access request, and first-day schedule. The hiring manager is responsible for ensuring the new employee's workstation, accounts, and tools are ready on Day 1.
+
+7.2 First Week
+Day 1 includes: HR induction (company overview, policies, HRMS walkthrough), IT orientation, and meeting with the immediate manager. During the first week, the new employee must complete mandatory e-learning modules: Code of Conduct, POSH awareness, IT security, and data protection.
+
+7.3 Probation Period
+All new hires serve a probation period of 6 months unless otherwise specified in the offer letter. During probation, performance is reviewed at 30-day, 90-day, and pre-confirmation milestones. Confirmation requires a satisfactory performance review and sign-off by the manager and HR Business Partner.
+
+7.4 Onboarding Buddy
+Every new employee is assigned an onboarding buddy — a peer employee who provides informal guidance on culture, tools, and processes for the first 90 days.
+
+8. INTERNAL MOBILITY
+
+Open positions are first posted internally via the HRMS internal job board. Employees must have completed at least 12 months in their current role to be eligible for internal applications. Internal applicants must inform their current manager before applying. HR facilitates transfer discussions between departments.
+
+9. POLICY REVIEW
+
+This policy is reviewed annually. Amendments are communicated via the HRMS and company intranet.
+
+For queries, contact: talent@aiopportunity.in
